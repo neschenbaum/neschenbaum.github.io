@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Eschenbaum &amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 25 Sep 2018 20:13:57 +0200</lastBuildDate>
     
 	<atom:link href="https://neschenbaum.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>0</title>
+      <link>https://neschenbaum.github.io/publication_types/0/</link>
+      <pubDate>Tue, 25 Sep 2018 20:13:57 +0200</pubDate>
+      
+      <guid>https://neschenbaum.github.io/publication_types/0/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
