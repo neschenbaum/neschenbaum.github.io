@@ -27,35 +27,16 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://neschenbaum.github.io/home/about/</guid>
-      <description>Welcome I am a postdoctoral researcher at the University of St. Gallen. My research interests include industrial organization, competition policy, digital markets, applied econometrics, and machine learning. I am currently employed on funding obtained via the SNF research project &amp;ldquo;Pricing in a Digital World&amp;rdquo; that was jointly proposed with Prof. Stefan Buehler (University of St. Gallen), Prof. Thomas Epper (University of St. Gallen), and Prof. Daniel Halbheer (HEC Paris).</description>
+      <description>Welcome I am a postdoctoral researcher at the University of St. Gallen. My research interests include industrial organization, competition policy, digital markets, applied econometrics, and machine learning. I am currently employed on funding obtained via the SNF research project &amp;ldquo;Pricing in a Digital World&amp;rdquo; that was proposed together with Prof. Stefan Buehler (University of St. Gallen). Prof. Thomas Epper (University of St. Gallen) and Prof. Daniel Halbheer (HEC Paris) are further project partners.</description>
     </item>
     
     <item>
-      <title>Recent Publications</title>
-      <link>https://neschenbaum.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://neschenbaum.github.io/home/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
+      <title>Research</title>
       <link>https://neschenbaum.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://neschenbaum.github.io/home/projects/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Custom Section</title>
-      <link>https://neschenbaum.github.io/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://neschenbaum.github.io/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
     </item>
     
     <item>
