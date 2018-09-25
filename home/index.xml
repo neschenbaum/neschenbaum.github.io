@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Academic</title>
+    <title>Homes on Nicolas Eschenbaum</title>
     <link>https://neschenbaum.github.io/home/</link>
-    <description>Recent content in Homes on Academic</description>
+    <description>Recent content in Homes on Nicolas Eschenbaum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Nicolas Eschenbaum &amp;copy; 2018</copyright>
@@ -27,8 +27,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>https://neschenbaum.github.io/home/about/</guid>
-      <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+      <description>Welcome I am a postdoctoral researcher at the University of St. Gallen. My research interests include industrial organization, competition policy, digital markets, applied econometrics, and machine learning. I am currently employed on funding obtained via the SNF research project &amp;ldquo;Pricing in a Digital World&amp;rdquo; that was jointly proposed with Prof. Stefan Buehler (University of St. Gallen), Prof. Thomas Epper (University of St. Gallen), and Prof. Daniel Halbheer (HEC Paris).</description>
     </item>
     
     <item>
