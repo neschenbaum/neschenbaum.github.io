@@ -12,5 +12,14 @@
 	<atom:link href="https://neschenbaum.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Google Verify</title>
+      <link>https://neschenbaum.github.io/talk/google-verify/</link>
+      <pubDate>Sun, 18 Nov 2018 19:35:54 +0100</pubDate>
+      
+      <guid>https://neschenbaum.github.io/talk/google-verify/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
