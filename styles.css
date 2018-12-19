@@ -115,14 +115,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #0069c0;
+  color: #7ca2d5;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #0069c0;
+  color: #7ca2d5;
 }
 
 img,
@@ -501,7 +501,7 @@ a[data-fancybox] img {
 .featurette-icon {
   display: block;
   width: 100%;
-  color: #0069c0;
+  color: #7ca2d5;
   font-size: 3rem;
   text-align: center;
 }
@@ -718,7 +718,7 @@ article .article-metadata {
 }
 
 .article-metadata a:hover {
-  color: #0069c0;
+  color: #7ca2d5;
 }
 
 .middot-divider {
@@ -1083,8 +1083,8 @@ a.label:hover {
  **************************************************/
 
 .btn-primary {
-  border-color: #0069c0 !important;
-  background: #0069c0 !important;
+  border-color: #7ca2d5 !important;
+  background: #7ca2d5 !important;
 }
 
 .btn-primary:hover,
@@ -1092,7 +1092,7 @@ a.label:hover {
 .btn-primary.active,
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
-  background: #0069c0 !important;
+  background: #7ca2d5 !important;
 }
 
 .btn-light {
@@ -1126,7 +1126,7 @@ a.label:hover {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: #7ca2d5 !important;
+  background-color: #0069c0 !important;
 }
 
 .btn-toolbar .btn.btn-primary:active,
@@ -1145,12 +1145,12 @@ a.label:hover {
 }
 
 .btn-primary.btn-outline {
-  color: #0069c0 !important;
-  border-color: #0069c0 !important;
+  color: #7ca2d5 !important;
+  border-color: #7ca2d5 !important;
 }
 
 .btn-primary.btn-outline:focus {
-  color: #0069c0 !important;
+  color: #7ca2d5 !important;
 }
 
 .btn-primary.btn-outline:active {
@@ -1237,14 +1237,14 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #4caf50;
+  color: #7ca2d5;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: #4caf50;
+  color: #7ca2d5;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -1281,7 +1281,7 @@ nav#navbar-main li {
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: #4caf50;
+  color: #7ca2d5;
   text-decoration: none;
   background-color: #333333;
 }
@@ -1291,7 +1291,7 @@ nav#navbar-main li {
 .dropdown-menu > .active > a:hover {
   color: #333333;
   text-decoration: none;
-  background-color: #4caf50;
+  background-color: #7ca2d5;
   outline: 0;
 }
 
@@ -1406,7 +1406,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-    color: #4caf50;
+    color: #7ca2d5;
     background-color: transparent;
   }
 
@@ -1571,7 +1571,7 @@ body.dark {
 }
 
 .dark ul.share li a {
-  background-color: #0069c0;
+  background-color: #7ca2d5;
 }
 
 .dark table table {
@@ -1625,7 +1625,7 @@ body.dark {
 }
 
 .dark .card h4 a {
-  color: #0069c0;
+  color: #7ca2d5;
   border-bottom: solid 1px transparent;
 }
 
