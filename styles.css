@@ -26,13 +26,13 @@
 
 html {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -1204,7 +1204,7 @@ a.label:hover {
 }
 
 .navbar-default {
-  background: #333333;
+  background: #474747;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -1218,7 +1218,7 @@ a.label:hover {
 }
 
 nav#navbar-main li {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .navbar-default .navbar-nav>li>a,
@@ -1266,7 +1266,7 @@ nav#navbar-main li {
 }
 
 .dropdown-menu {
-  background-color: #333333 !important;
+  background-color: #474747 !important;
 }
 
 .dropdown-menu > li > a {
@@ -1283,13 +1283,13 @@ nav#navbar-main li {
 .dropdown-menu>li>a:hover {
   color: #7c9bd5;
   text-decoration: none;
-  background-color: #333333;
+  background-color: #474747;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
-  color: #333333;
+  color: #474747;
   text-decoration: none;
   background-color: #7c9bd5;
   outline: 0;
@@ -1300,7 +1300,7 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:visited {
   color: #fff !important;
-  background-color: #333333 !important;
+  background-color: #474747 !important;
 }
 
 .navbar-default .navbar-brand {
