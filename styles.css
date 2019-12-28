@@ -1200,7 +1200,7 @@ a.label:hover {
  **************************************************/
 
 .navbar {
-  min-height: 70px !important;
+  min-height: 50px !important;
 }
 
 .navbar-default {
