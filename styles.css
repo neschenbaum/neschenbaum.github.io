@@ -1245,7 +1245,7 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
   color: #7c9bd5;
-  font-weight: 700;
+  font-weight: 400;
   background-color: transparent !important; /* Override Bootstrap. */
 }
 
@@ -1305,7 +1305,7 @@ nav#navbar-main li {
 
 .navbar-default .navbar-brand {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 1.2em;
   color: #fff;
 }
