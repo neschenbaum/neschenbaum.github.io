@@ -1228,7 +1228,7 @@ nav#navbar-main li {
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
