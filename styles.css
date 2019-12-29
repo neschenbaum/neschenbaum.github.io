@@ -26,13 +26,13 @@
 
 html {
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -100,15 +100,15 @@ h1 {
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 h3 {
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 1.5rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -1218,7 +1218,7 @@ a.label:hover {
 }
 
 nav#navbar-main li {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .navbar-default .navbar-nav>li>a,
