@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 on Nicolas Eschenbaum</title>
+    <title>2 | Nicolas Eschenbaum</title>
     <link>https://neschenbaum.github.io/publication_types/2/</link>
-    <description>Recent content in 2 on Nicolas Eschenbaum</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Nicolas Eschenbaum &amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 25 Dec 2019 15:58:24 +0200</lastBuildDate>
-    
-	<atom:link href="https://neschenbaum.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://neschenbaum.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Wed, 19 Feb 2020 14:32:05 +0100</lastBuildDate>
+    <image>
+      <url>https://neschenbaum.github.io/img/avatar.jpg</url>
+      <title>2</title>
+      <link>https://neschenbaum.github.io/publication_types/2/</link>
+    </image>
     
     <item>
       <title>Explaining Escalating Fines and Prices: A Unified Approach</title>
       <link>https://neschenbaum.github.io/publication/escalating-fines-and-prices/</link>
-      <pubDate>Wed, 25 Dec 2019 15:58:24 +0200</pubDate>
-      
+      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/publication/escalating-fines-and-prices/</guid>
       <description></description>
     </item>

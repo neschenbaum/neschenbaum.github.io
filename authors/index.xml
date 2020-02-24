@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Nicolas Eschenbaum</title>
+    <link>https://neschenbaum.github.io/authors/</link>
+      <atom:link href="https://neschenbaum.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Wed, 19 Feb 2020 14:32:05 +0100</lastBuildDate>
+    <image>
+      <url>https://neschenbaum.github.io/img/avatar.jpg</url>
+      <title>Authors</title>
+      <link>https://neschenbaum.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>Marc Moeller</title>
+      <link>https://neschenbaum.github.io/authors/marc-moeller/</link>
+      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/authors/marc-moeller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicolas Eschenbaum</title>
+      <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
+      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stefan Buehler</title>
+      <link>https://neschenbaum.github.io/authors/stefan-buehler/</link>
+      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/authors/stefan-buehler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helge Liebert</title>
+      <link>https://neschenbaum.github.io/authors/helge-liebert/</link>
+      <pubDate>Tue, 19 Feb 2019 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/authors/helge-liebert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://neschenbaum.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://neschenbaum.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;&lt;br&gt; I am a postdoc at the University of St. Gallen. I do research in industrial organization and the economics of digitization, focusing in particular on the principles and functioning of dynamic pricing and related competition policy concerns. I am currently on a four-year research grant obtained via the SNSF research project &amp;ldquo;Pricing in a Digital World&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

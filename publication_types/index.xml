@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types on Nicolas Eschenbaum</title>
+    <title>Publication_types | Nicolas Eschenbaum</title>
     <link>https://neschenbaum.github.io/publication_types/</link>
-    <description>Recent content in Publication_types on Nicolas Eschenbaum</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Nicolas Eschenbaum &amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 25 Sep 2018 20:13:57 +0200</lastBuildDate>
-    
-	<atom:link href="https://neschenbaum.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://neschenbaum.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Wed, 19 Feb 2020 14:32:05 +0100</lastBuildDate>
+    <image>
+      <url>https://neschenbaum.github.io/img/avatar.jpg</url>
+      <title>Publication_types</title>
+      <link>https://neschenbaum.github.io/publication_types/</link>
+    </image>
     
     <item>
       <title>0</title>
       <link>https://neschenbaum.github.io/publication_types/0/</link>
-      <pubDate>Tue, 25 Sep 2018 20:13:57 +0200</pubDate>
-      
+      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/publication_types/0/</guid>
       <description></description>
     </item>
@@ -24,9 +23,24 @@
     <item>
       <title>2</title>
       <link>https://neschenbaum.github.io/publication_types/2/</link>
-      <pubDate>Wed, 25 Dec 2019 15:58:24 +0200</pubDate>
-      
+      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/publication_types/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>https://neschenbaum.github.io/publication_types/3/</link>
+      <pubDate>Tue, 19 Feb 2019 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication_types/3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4</title>
+      <link>https://neschenbaum.github.io/publication_types/4/</link>
+      <pubDate>Mon, 19 Nov 2018 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication_types/4/</guid>
       <description></description>
     </item>
     

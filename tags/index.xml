@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Nicolas Eschenbaum</title>
+    <title>Tags | Nicolas Eschenbaum</title>
     <link>https://neschenbaum.github.io/tags/</link>
-    <description>Recent content in Tags on Nicolas Eschenbaum</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Nicolas Eschenbaum &amp;copy; 2018</copyright>
-    
-	<atom:link href="https://neschenbaum.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://neschenbaum.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright>
+    <image>
+      <url>https://neschenbaum.github.io/img/avatar.jpg</url>
+      <title>Tags</title>
+      <link>https://neschenbaum.github.io/tags/</link>
+    </image>
     
   </channel>
 </rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | Nicolas Eschenbaum</title>
+    <link>https://neschenbaum.github.io/publication_types/4/</link>
+      <atom:link href="https://neschenbaum.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Mon, 19 Nov 2018 14:32:05 +0100</lastBuildDate>
+    <image>
+      <url>https://neschenbaum.github.io/img/avatar.jpg</url>
+      <title>4</title>
+      <link>https://neschenbaum.github.io/publication_types/4/</link>
+    </image>
+    
+    <item>
+      <title>Estimating Geographic Market Size Nonparametrically: An Application to Grocery Retailing</title>
+      <link>https://neschenbaum.github.io/publication/geographic-market-definition/</link>
+      <pubDate>Mon, 19 Nov 2018 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication/geographic-market-definition/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
