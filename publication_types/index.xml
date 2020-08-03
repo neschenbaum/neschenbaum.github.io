@@ -5,12 +5,20 @@
     <link>https://neschenbaum.github.io/publication_types/</link>
       <atom:link href="https://neschenbaum.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Wed, 19 Feb 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Wed, 01 Jul 2020 14:32:05 +0100</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>Publication_types</title>
       <link>https://neschenbaum.github.io/publication_types/</link>
     </image>
+    
+    <item>
+      <title>3</title>
+      <link>https://neschenbaum.github.io/publication_types/3/</link>
+      <pubDate>Wed, 01 Jul 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication_types/3/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>0</title>
@@ -25,14 +33,6 @@
       <link>https://neschenbaum.github.io/publication_types/2/</link>
       <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/publication_types/2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>3</title>
-      <link>https://neschenbaum.github.io/publication_types/3/</link>
-      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/publication_types/3/</guid>
       <description></description>
     </item>
     

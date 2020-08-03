@@ -5,7 +5,7 @@
     <link>https://neschenbaum.github.io/authors/</link>
       <atom:link href="https://neschenbaum.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Wed, 19 Feb 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Wed, 01 Jul 2020 14:32:05 +0100</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>Authors</title>
@@ -15,8 +15,16 @@
     <item>
       <title>Helge Liebert</title>
       <link>https://neschenbaum.github.io/authors/helge-liebert/</link>
-      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
+      <pubDate>Wed, 01 Jul 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/authors/helge-liebert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicolas Eschenbaum</title>
+      <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
+      <pubDate>Wed, 01 Jul 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</guid>
       <description></description>
     </item>
     
@@ -25,14 +33,6 @@
       <link>https://neschenbaum.github.io/authors/marc-moeller/</link>
       <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/authors/marc-moeller/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nicolas Eschenbaum</title>
-      <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
-      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</guid>
       <description></description>
     </item>
     
