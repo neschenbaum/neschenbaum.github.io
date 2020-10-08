@@ -5,7 +5,7 @@
     <link>https://neschenbaum.github.io/publication_types/0/</link>
       <atom:link href="https://neschenbaum.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Mon, 05 Oct 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Fri, 02 Oct 2020 14:32:05 +0100</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>0</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Algorithmic Collusion With Asymmetric Players</title>
-      <link>https://neschenbaum.github.io/publication/learning-games/</link>
-      <pubDate>Mon, 05 Oct 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/publication/learning-games/</guid>
+      <title>Trading Up: Dynamic Monopoly Pricing With Multiple Varieties</title>
+      <link>https://neschenbaum.github.io/publication/multiproduct/</link>
+      <pubDate>Fri, 02 Oct 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication/multiproduct/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Trading Up: Dynamic Monopoly Pricing With Multiple Varieties</title>
-      <link>https://neschenbaum.github.io/publication/multiproduct/</link>
-      <pubDate>Wed, 19 Aug 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/publication/multiproduct/</guid>
+      <title>Algorithmic Collusion With Asymmetric Players</title>
+      <link>https://neschenbaum.github.io/publication/learning-games/</link>
+      <pubDate>Thu, 01 Oct 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication/learning-games/</guid>
       <description></description>
     </item>
     

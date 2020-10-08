@@ -5,7 +5,7 @@
     <link>https://neschenbaum.github.io/authors/</link>
       <atom:link href="https://neschenbaum.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Mon, 05 Oct 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Sun, 04 Oct 2020 14:32:05 +0100</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>Authors</title>
@@ -15,31 +15,15 @@
     <item>
       <title>Nicolas Eschenbaum</title>
       <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
-      <pubDate>Mon, 05 Oct 2020 14:32:05 +0100</pubDate>
+      <pubDate>Sun, 04 Oct 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Philipp Zahn</title>
-      <link>https://neschenbaum.github.io/authors/philipp-zahn/</link>
-      <pubDate>Mon, 05 Oct 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/authors/philipp-zahn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Marc Moeller</title>
-      <link>https://neschenbaum.github.io/authors/marc-moeller/</link>
-      <pubDate>Wed, 19 Aug 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/authors/marc-moeller/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stefan Buehler</title>
       <link>https://neschenbaum.github.io/authors/stefan-buehler/</link>
-      <pubDate>Wed, 19 Aug 2020 14:32:05 +0100</pubDate>
+      <pubDate>Sun, 04 Oct 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/authors/stefan-buehler/</guid>
       <description></description>
     </item>
@@ -47,8 +31,24 @@
     <item>
       <title>Helge Liebert</title>
       <link>https://neschenbaum.github.io/authors/helge-liebert/</link>
-      <pubDate>Wed, 01 Jul 2020 14:32:05 +0100</pubDate>
+      <pubDate>Sat, 03 Oct 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/authors/helge-liebert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marc Moeller</title>
+      <link>https://neschenbaum.github.io/authors/marc-moeller/</link>
+      <pubDate>Fri, 02 Oct 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/authors/marc-moeller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philipp Zahn</title>
+      <link>https://neschenbaum.github.io/authors/philipp-zahn/</link>
+      <pubDate>Thu, 01 Oct 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/authors/philipp-zahn/</guid>
       <description></description>
     </item>
     
