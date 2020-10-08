@@ -5,12 +5,20 @@
     <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
       <atom:link href="https://neschenbaum.github.io/authors/nicolas-eschenbaum/index.xml" rel="self" type="application/rss+xml" />
     <description>Nicolas Eschenbaum</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Mon, 05 Oct 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Mon, 19 Oct 2020 14:32:05 +0100</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>Nicolas Eschenbaum</title>
       <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
     </image>
+    
+    <item>
+      <title>Explaining escalating prices and fines: A unified approach</title>
+      <link>https://neschenbaum.github.io/publication/escalating-prices-and-fines/</link>
+      <pubDate>Mon, 19 Oct 2020 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication/escalating-prices-and-fines/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Algorithmic Collusion With Asymmetric Players</title>
@@ -37,15 +45,7 @@
     </item>
     
     <item>
-      <title>Explaining escalating prices and fines: A unified approach</title>
-      <link>https://neschenbaum.github.io/publication/escalating-prices-and-fines/</link>
-      <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/publication/escalating-prices-and-fines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trading Up: Dynamic Pricing With Multiple Varieties</title>
+      <title>Trading Up: Dynamic Monopoly Pricing With Multiple Varieties</title>
       <link>https://neschenbaum.github.io/publication/multiproduct/</link>
       <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/publication/multiproduct/</guid>
