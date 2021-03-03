@@ -5,7 +5,7 @@
     <link>https://neschenbaum.github.io/authors/</link>
       <atom:link href="https://neschenbaum.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Sun, 04 Oct 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2021</copyright><lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Nicolas Eschenbaum</title>
       <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
-      <pubDate>Sun, 04 Oct 2020 14:32:05 +0100</pubDate>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Stefan Buehler</title>
       <link>https://neschenbaum.github.io/authors/stefan-buehler/</link>
-      <pubDate>Sun, 04 Oct 2020 14:32:05 +0100</pubDate>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://neschenbaum.github.io/authors/stefan-buehler/</guid>
       <description></description>
     </item>
@@ -31,23 +31,15 @@
     <item>
       <title>Helge Liebert</title>
       <link>https://neschenbaum.github.io/authors/helge-liebert/</link>
-      <pubDate>Sat, 03 Oct 2020 14:32:05 +0100</pubDate>
+      <pubDate>Mon, 01 Feb 2021 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/authors/helge-liebert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Marc Moeller</title>
-      <link>https://neschenbaum.github.io/authors/marc-moeller/</link>
-      <pubDate>Fri, 02 Oct 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/authors/marc-moeller/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Philipp Zahn</title>
       <link>https://neschenbaum.github.io/authors/philipp-zahn/</link>
-      <pubDate>Thu, 01 Oct 2020 14:32:05 +0100</pubDate>
+      <pubDate>Fri, 01 Jan 2021 15:31:49 +0100</pubDate>
       <guid>https://neschenbaum.github.io/authors/philipp-zahn/</guid>
       <description></description>
     </item>
@@ -73,7 +65,7 @@
       <link>https://neschenbaum.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://neschenbaum.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a postdoc at the University of St. Gallen and visiting scholar at the Düsseldorf Institute for Competition Economics. I do research in industrial organization and the economics of digitization, focusing in particular on the principles and functioning of dynamic pricing and related competition policy concerns. I am also interested in algorithmic pricing and the implications of automated decision making for market conduct and competition policy, as well as black market online platforms. I am currently on a four-year research grant obtained via the SNSF research project &amp;ldquo;Pricing in a Digital World&amp;rdquo;.&lt;/p&gt;
+      <description>&lt;p&gt;I am a postdoc at the University of St. Gallen. In fall of 2020 I was a visiting scholar at the DICE. I do research in industrial organization and the economics of digitization. I am particularly interested in dynamic pricing, algorithmic pricing, black market online platforms, and generally competition policy concerns related to digitization. I am currently on a four-year research grant obtained via the SNSF research project &amp;ldquo;Pricing in a Digital World&amp;rdquo;. Jointly with Philipp Zahn, I lead the research project &amp;ldquo;The Competitive Effects of Pricing Software Systems&amp;rdquo; that is funded by the University of St. Gallens Basic Research Fund.&lt;/p&gt;
 </description>
     </item>
     

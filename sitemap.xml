@@ -3,83 +3,93 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://neschenbaum.github.io/publication_types/2/</loc>
-    <lastmod>2020-10-04T14:32:05+01:00</lastmod>
+    <loc>https://neschenbaum.github.io/publication_types/3/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://neschenbaum.github.io/authors/</loc>
+    <lastmod>2021-03-03T15:31:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/publication/multiproduct/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</loc>
+    <lastmod>2021-03-03T15:31:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/</loc>
+    <lastmod>2021-03-03T15:31:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/publication_types/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/publication/</loc>
+    <lastmod>2021-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/authors/stefan-buehler/</loc>
+    <lastmod>2021-03-03T15:31:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/publication/dealing-with-uncertainty/</loc>
+    <lastmod>2021-02-01T14:32:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/authors/helge-liebert/</loc>
+    <lastmod>2021-02-01T14:32:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/publication_types/0/</loc>
+    <lastmod>2021-01-01T16:21:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/publication/data-moats/</loc>
+    <lastmod>2021-01-01T16:21:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/authors/philipp-zahn/</loc>
+    <lastmod>2021-03-03T15:31:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/project/</loc>
+    <lastmod>2021-03-03T15:31:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/project/learning-games/</loc>
+    <lastmod>2021-03-03T15:31:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/publication/learning-games/</loc>
+    <lastmod>2021-01-01T14:32:05+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neschenbaum.github.io/publication_types/2/</loc>
     <lastmod>2020-10-04T14:32:05+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://neschenbaum.github.io/publication/escalating-prices-and-fines/</loc>
     <lastmod>2020-10-04T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/</loc>
-    <lastmod>2020-10-04T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</loc>
-    <lastmod>2020-10-04T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/publication_types/</loc>
-    <lastmod>2020-10-04T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/publication/</loc>
-    <lastmod>2020-10-04T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/authors/stefan-buehler/</loc>
-    <lastmod>2020-10-04T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/publication_types/3/</loc>
-    <lastmod>2020-10-03T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/publication/dealing-with-uncertainty/</loc>
-    <lastmod>2020-10-03T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/authors/helge-liebert/</loc>
-    <lastmod>2020-10-03T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/publication_types/0/</loc>
-    <lastmod>2020-10-02T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/authors/marc-moeller/</loc>
-    <lastmod>2020-10-02T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/publication/multiproduct/</loc>
-    <lastmod>2020-10-02T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/publication/learning-games/</loc>
-    <lastmod>2020-10-01T14:32:05+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://neschenbaum.github.io/authors/philipp-zahn/</loc>
-    <lastmod>2020-10-01T14:32:05+01:00</lastmod>
   </url>
   
   <url>
@@ -98,8 +108,8 @@
   </url>
   
   <url>
-    <loc>https://neschenbaum.github.io/publication_types/4/</loc>
-    <lastmod>2018-11-19T14:32:05+01:00</lastmod>
+    <loc>https://neschenbaum.github.io/project/dynamic-pricing/</loc>
+    <lastmod>2021-03-03T15:31:27+01:00</lastmod>
   </url>
   
   <url>

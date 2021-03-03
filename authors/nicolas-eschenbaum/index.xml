@@ -5,12 +5,53 @@
     <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
       <atom:link href="https://neschenbaum.github.io/authors/nicolas-eschenbaum/index.xml" rel="self" type="application/rss+xml" />
     <description>Nicolas Eschenbaum</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Sun, 04 Oct 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2021</copyright><lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>Nicolas Eschenbaum</title>
       <link>https://neschenbaum.github.io/authors/nicolas-eschenbaum/</link>
     </image>
+    
+    <item>
+      <title>Dynamic Monopoly Pricing With Multiple Varieties: Trading Up Buyers</title>
+      <link>https://neschenbaum.github.io/publication/multiproduct/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://neschenbaum.github.io/publication/multiproduct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions</title>
+      <link>https://neschenbaum.github.io/publication/dealing-with-uncertainty/</link>
+      <pubDate>Mon, 01 Feb 2021 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication/dealing-with-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Moats and Pre-emptive Entry</title>
+      <link>https://neschenbaum.github.io/publication/data-moats/</link>
+      <pubDate>Fri, 01 Jan 2021 16:21:19 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication/data-moats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Competitive Effects of Pricing Software Systems</title>
+      <link>https://neschenbaum.github.io/project/learning-games/</link>
+      <pubDate>Fri, 01 Jan 2021 15:31:49 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/project/learning-games/</guid>
+      <description>&lt;p&gt;The increased use of pricing software by firms has gained the attention of policymakers and researchers. One major source of concern is that self-learning pricing algorithms may learn to collude without any explicit instruction to do so by the firm. Recent research indicates that these concerns are not unfounded. However, there is a large gap between how existing analyses are conducted and the actual, real-world implementation of pricing algorithms. The goal of our overall research is to close this gap. This project is the first step in this direction by investigating the role of asymmetry between players. This project has been funded by the University of St. Gallens Basic Research Fund.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Algorithmic Collusion and Asymmetric Agents</title>
+      <link>https://neschenbaum.github.io/publication/learning-games/</link>
+      <pubDate>Fri, 01 Jan 2021 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication/learning-games/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Explaining escalating prices and fines: A unified approach</title>
@@ -21,35 +62,20 @@
     </item>
     
     <item>
-      <title>Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions</title>
-      <link>https://neschenbaum.github.io/publication/dealing-with-uncertainty/</link>
-      <pubDate>Sat, 03 Oct 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/publication/dealing-with-uncertainty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trading Up: Dynamic Monopoly Pricing With Multiple Varieties</title>
-      <link>https://neschenbaum.github.io/publication/multiproduct/</link>
-      <pubDate>Fri, 02 Oct 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/publication/multiproduct/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Algorithmic Collusion With Asymmetric Players</title>
-      <link>https://neschenbaum.github.io/publication/learning-games/</link>
-      <pubDate>Thu, 01 Oct 2020 14:32:05 +0100</pubDate>
-      <guid>https://neschenbaum.github.io/publication/learning-games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Experimental Evidence on Coasian Dynamics and the Ratchet Efffect</title>
+      <title>Experimental Evidence on Coasian Dynamics and the Ratchet Effect</title>
       <link>https://neschenbaum.github.io/publication/experiment/</link>
       <pubDate>Wed, 19 Feb 2020 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/publication/experiment/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Pricing in a Digital World</title>
+      <link>https://neschenbaum.github.io/project/dynamic-pricing/</link>
+      <pubDate>Tue, 01 Jan 2019 15:31:27 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/project/dynamic-pricing/</guid>
+      <description>&lt;p&gt;In the digital world, tracking individual customers is commonplace. This research project provides new insights into optimal pricing when sellers can observe their customers&amp;rsquo; purchase histories. This project has been funded by the Swiss National Science Foundation (SNSF), grant no. 178836.&lt;/p&gt;
+</description>
     </item>
     
     <item>

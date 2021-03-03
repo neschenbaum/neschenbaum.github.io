@@ -5,7 +5,7 @@
     <link>https://neschenbaum.github.io/publication_types/3/</link>
       <atom:link href="https://neschenbaum.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Sat, 03 Oct 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2021</copyright><lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>3</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>Dynamic Monopoly Pricing With Multiple Varieties: Trading Up Buyers</title>
+      <link>https://neschenbaum.github.io/publication/multiproduct/</link>
+      <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://neschenbaum.github.io/publication/multiproduct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions</title>
       <link>https://neschenbaum.github.io/publication/dealing-with-uncertainty/</link>
-      <pubDate>Sat, 03 Oct 2020 14:32:05 +0100</pubDate>
+      <pubDate>Mon, 01 Feb 2021 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/publication/dealing-with-uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating Geographic Market Size Nonparametrically: An Application to Grocery Retailing</title>
+      <link>https://neschenbaum.github.io/publication/geographic-market-definition/</link>
+      <pubDate>Mon, 19 Nov 2018 14:32:05 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/publication/geographic-market-definition/</guid>
       <description></description>
     </item>
     

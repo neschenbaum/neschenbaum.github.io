@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Nicolas Eschenbaum</title>
+    <link>https://neschenbaum.github.io/project/</link>
+      <atom:link href="https://neschenbaum.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 15:31:49 +0100</lastBuildDate>
+    <image>
+      <url>https://neschenbaum.github.io/img/avatar.jpg</url>
+      <title>Projects</title>
+      <link>https://neschenbaum.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>The Competitive Effects of Pricing Software Systems</title>
+      <link>https://neschenbaum.github.io/project/learning-games/</link>
+      <pubDate>Fri, 01 Jan 2021 15:31:49 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/project/learning-games/</guid>
+      <description>&lt;p&gt;The increased use of pricing software by firms has gained the attention of policymakers and researchers. One major source of concern is that self-learning pricing algorithms may learn to collude without any explicit instruction to do so by the firm. Recent research indicates that these concerns are not unfounded. However, there is a large gap between how existing analyses are conducted and the actual, real-world implementation of pricing algorithms. The goal of our overall research is to close this gap. This project is the first step in this direction by investigating the role of asymmetry between players. This project has been funded by the University of St. Gallens Basic Research Fund.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pricing in a Digital World</title>
+      <link>https://neschenbaum.github.io/project/dynamic-pricing/</link>
+      <pubDate>Tue, 01 Jan 2019 15:31:27 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/project/dynamic-pricing/</guid>
+      <description>&lt;p&gt;In the digital world, tracking individual customers is commonplace. This research project provides new insights into optimal pricing when sellers can observe their customers&amp;rsquo; purchase histories. This project has been funded by the Swiss National Science Foundation (SNSF), grant no. 178836.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

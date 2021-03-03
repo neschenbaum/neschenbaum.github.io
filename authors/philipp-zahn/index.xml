@@ -5,7 +5,7 @@
     <link>https://neschenbaum.github.io/authors/philipp-zahn/</link>
       <atom:link href="https://neschenbaum.github.io/authors/philipp-zahn/index.xml" rel="self" type="application/rss+xml" />
     <description>Philipp Zahn</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2020</copyright><lastBuildDate>Thu, 01 Oct 2020 14:32:05 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Nicolas Eschenbaum © 2021</copyright><lastBuildDate>Fri, 01 Jan 2021 15:31:49 +0100</lastBuildDate>
     <image>
       <url>https://neschenbaum.github.io/img/avatar.jpg</url>
       <title>Philipp Zahn</title>
@@ -13,9 +13,18 @@
     </image>
     
     <item>
-      <title>Algorithmic Collusion With Asymmetric Players</title>
+      <title>The Competitive Effects of Pricing Software Systems</title>
+      <link>https://neschenbaum.github.io/project/learning-games/</link>
+      <pubDate>Fri, 01 Jan 2021 15:31:49 +0100</pubDate>
+      <guid>https://neschenbaum.github.io/project/learning-games/</guid>
+      <description>&lt;p&gt;The increased use of pricing software by firms has gained the attention of policymakers and researchers. One major source of concern is that self-learning pricing algorithms may learn to collude without any explicit instruction to do so by the firm. Recent research indicates that these concerns are not unfounded. However, there is a large gap between how existing analyses are conducted and the actual, real-world implementation of pricing algorithms. The goal of our overall research is to close this gap. This project is the first step in this direction by investigating the role of asymmetry between players. This project has been funded by the University of St. Gallens Basic Research Fund.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Algorithmic Collusion and Asymmetric Agents</title>
       <link>https://neschenbaum.github.io/publication/learning-games/</link>
-      <pubDate>Thu, 01 Oct 2020 14:32:05 +0100</pubDate>
+      <pubDate>Fri, 01 Jan 2021 14:32:05 +0100</pubDate>
       <guid>https://neschenbaum.github.io/publication/learning-games/</guid>
       <description></description>
     </item>
