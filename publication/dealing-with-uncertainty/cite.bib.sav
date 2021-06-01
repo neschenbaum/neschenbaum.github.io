@@ -1,10 +1,12 @@
 % Encoding: UTF-8
 
-@Unpublished{eschenbaum-liebert-2020,
+@Comment{jabref-meta: databaseType:bibtex;}
+
+{eschenbaum-liebert-2020,
   author   = {Nicolas Eschenbaum and Helge Liebert},
   title    = {Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions},
   month    = may,
   year     = {2021},
   keywords = {},
-  url      = {},
+  url      = {,
 }
