@@ -18,5 +18,5 @@ social: true  # includes social icons at the bottom of the page
 
 I am a researcher and consultant at the intersection of game theory, computation, and market regulation.
 
-I design incentives for startups and Web3 protocols, support companies in antitrust investigations, and help regulators understand the economics of digital markets/AI. You can find more details on my consulting work <a href="https://neschenbaum.github.io/consulting/">here</a>).
-My latest research funded by the Hasler Foundation integrates a programmatic, modular framework of mathematical games (see the <a href="https://github.com/philipp-zahn/open-games-hs">repository</a> for details) with machine learning libraries (see <a href="https://neschenbaum.github.io/projects/2_project/">here</a>). You can find details on my various research activities <a href="https://neschenbaum.github.io/projects/">here</a>).
+I design incentives for startups and Web3 protocols, support companies in antitrust investigations, analyze strategic behavior in auctions, and help regulators and policymakers understand the economics of digital markets/AI. More details on my consulting work are <a href="https://neschenbaum.github.io/consulting/">here</a>.
+My latest research funded by the Hasler Foundation integrates a programmatic, modular framework of mathematical games with machine learning libraries (<a href="https://neschenbaum.github.io/projects/2_project/">repository</a>). You can find details on my various research activities <a href="https://neschenbaum.github.io/projects/">here</a>.
