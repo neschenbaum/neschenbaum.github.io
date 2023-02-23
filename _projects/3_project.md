@@ -5,7 +5,7 @@ description: Ratings and reputation effects on pricing on darknet platforms
 img: /assets/img/darknet-2.png
 redirect:
 importance: 3
-category: work
+category: research
 ---
 
 

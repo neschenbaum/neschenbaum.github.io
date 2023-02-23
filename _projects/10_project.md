@@ -4,7 +4,7 @@ title: Pricing in a Digital World
 description: SNSF funded theoretical and experimental work on dynamic pricing when a firm tracks customers' purchases
 img: /assets/img/multi-2.png
 importance: 1
-category: research
+category: consulting
 ---
 
 

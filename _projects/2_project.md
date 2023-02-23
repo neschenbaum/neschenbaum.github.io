@@ -4,7 +4,7 @@ title: Computational Learning in Games
 description: U of St. Gallen and Hasler Foundation funded work on RL in economic games
 img: /assets/img/algos-2.png
 importance: 2
-category: work
+category: research
 ---
 
 
