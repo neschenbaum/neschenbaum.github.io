@@ -20,11 +20,11 @@ nav_order: 2
 
 <h1> Working Papers </h1>
 
-<div class="workingpapers">
+<div class="publications">
 
 {% for y in page.yearswp %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f workingpapers -q @*[year={{y}}]*  %}
+  {% bibliography -f workingpapers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
