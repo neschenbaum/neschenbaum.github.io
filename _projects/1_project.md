@@ -36,12 +36,16 @@ We focus on a concept we call 'trading up'. It is meant to capture the simple id
 
 Our analysis shows that if the demand function is known to the seller (so that there is no statistical learning problem), and the state of the world is constant, then the only reason to dynamically price is because the consumers previous choice reveals something about their willingness-to-pay and exploiting this is valuable to the seller: inducing a customer to pick a more valuable option increases the total surplus available in trade and thus the seller can obtain a higher profit when trading up. So this form of dynamic pricing could also be interpreted as 'dynamic market segmentation' of a fix and known demand function.
 
-We then take our framework to the lab to observe how individuals actually behave in dynamic monopoly pricing settings. We match one consumer to one seller and study pricing dynamics that arise when sellers and buyers interact repeatedly and how this compares to the theoretic predictions. We differentiate between durable and rental goods on offer and whether the seller is able to commit to prices ex-ante or not. This work is ongoing.
+We then take our framework to the lab to observe how individuals actually behave in dynamic monopoly pricing settings. We match one consumer to one seller and study pricing dynamics that arise when sellers and buyers interact repeatedly and how this compares to the theoretic predictions. We differentiate between durable and rental goods on offer and whether the seller is able to commit to prices ex-ante or not. 
 
-<h4>Project materials:</h4><ul><li>
-<a href="https://stefan-buehler.net">Stefan Buehler</a> and Nicolas Eschenbaum. <a href="/assets/pdf/escalating-fines-and-prices.pdf">Explaining Escalating Fines and Prices: A Unified Approach</a>. <i>Journal of Economic Behavior and Organization.</i> Volume 171, March 2020, Pages 153-164.
+<h4>Project materials:</h4><ul>
+<li>
+<a href="https://stefan-buehler.net">Stefan Buehler</a>, Nicolas Eschenbaum and Severin Lenhard. <a href="/assets/pdf/Multiproduct_Dynamic_Pricing.pdf">Dynamic Monopoly Pricing With Multiple Varieties: Trading Up</a> (WP). <i>2025.</i>
 </li>
 <li>
-<a href="https://stefan-buehler.net">Stefan Buehler</a> and Nicolas Eschenbaum. <a href="/assets/pdf/Multiproduct_Dynamic_Pricing.pdf">Dynamic Monopoly Pricing With Multiple Varieties: Trading Up</a> (WP). <i>2021.</i>
+<a href="https://stefan-buehler.net">Stefan Buehler</a>, Thomas Epper, Nicolas Eschenbaum, and Roberta Koch. <a href="/assets/pdf/Dynamic_Pricing_Experiment.pdf">Dynamic Pricing in Bilateral Relationships: Experimental Evidence</a> (WP). <i>2024.</i>
+</li>
+<li>
+<a href="https://stefan-buehler.net">Stefan Buehler</a> and Nicolas Eschenbaum. <a href="/assets/pdf/escalating-fines-and-prices.pdf">Explaining Escalating Fines and Prices: A Unified Approach</a>. <i>Journal of Economic Behavior and Organization.</i> Volume 171, March 2020, Pages 153-164.
 </li>
 </ul>

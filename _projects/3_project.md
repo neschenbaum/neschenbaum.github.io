@@ -4,7 +4,7 @@ title: Sellers on Black Market Online Platforms
 description: Ratings and reputation effects on pricing on darknet platforms
 img: /assets/img/darknet-2.png
 redirect:
-importance: 3
+importance: 5
 category: research
 ---
 
