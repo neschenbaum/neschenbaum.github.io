@@ -1,0 +1,232 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{bookmark}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{fontspec}
+\RequirePackage[fixed]{fontawesome5}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{myblue}{rgb}{0.0,0.0,0.35}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    linkcolor=myblue,
+    urlcolor=myblue,
+    citecolor=myblue,
+    anchorcolor=myblue,
+    pdftitle={Curriculum Vitae - Nicolas Eschenbaum},
+    pdfauthor={Nicolas Eschenbaum},
+    bookmarksopen=true
+}
+
+\setlength\LTpre{0pt}
+\setlength\LTpost{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\arraystretch}{1.0}
+\setlength{\emergencystretch}{3em}
+\urlstyle{same}
+
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+% ---- Section headings -------------------------------------------------------
+\newcommand{\cvsection}[2]{%
+    \Needspace{5\baselineskip}%
+    \vspace{1.4em}%
+    \pdfbookmark[1]{#1}{#2}%
+    {\large\bfseries #1}\par
+    \vspace{0.25em}%
+    \hrule
+    \vspace{0.55em}%
+}
+\newcommand{\cvsubsection}[1]{%
+    \vspace{0.9em}{\bfseries\scshape #1}\par\vspace{0.35em}%
+}
+
+% ---- Entries as paragraphs: fixed date box (left) + flowing body box --------
+% Using \vspace between blocks makes the inter-entry gap uniform by construction
+% (independent of whether an entry has a description).
+\newlength{\cvdatew}\setlength{\cvdatew}{0.16\textwidth}
+\newlength{\cvbodyw}\setlength{\cvbodyw}{0.82\textwidth}
+\newlength{\cventrygap}\setlength{\cventrygap}{0.85em}
+\newlength{\cvroledescgap}\setlength{\cvroledescgap}{0.15em}
+\newenvironment{cvtable}{\par}{\par} % no-op wrapper (kept so section markup is unchanged)
+\newcommand{\cventryblock}[2]{%
+    \noindent\makebox[\cvdatew][l]{#1}\parbox[t]{\cvbodyw}{#2}\par\vspace{\cventrygap}%
+}
+% dates, single content cell
+\newcommand{\cvitem}[2]{\cventryblock{#1}{#2}}
+% dates, BOLD role, regular institution, description
+\newcommand{\cvrole}[4]{\cventryblock{#1}{\textbf{#2}, #3\\[\cvroledescgap]{\small #4}}}
+% dates, BOLD role, regular institution (no description)
+\newcommand{\cvrolen}[3]{\cventryblock{#1}{\textbf{#2}, #3}}
+% dates, BOLD title, regular trailing detail (grants/awards)
+\newcommand{\cvtitle}[3]{\cventryblock{#1}{\textbf{#2}. #3}}
+
+% Publication entry with a hanging indent (own name bolded via \me).
+\newcommand{\cvpub}[1]{\par\hangindent=1.3em\hangafter=1 {\small #1}\par\vspace{0.45em}}
+\newcommand{\me}{\textbf{Eschenbaum N}}
+% Linked source badge: navy-bordered box reusing myblue. The second argument
+% (source id) is accepted for documentation but the badge always reads "link".
+\newcommand{\srclink}[2]{%
+    {\setlength{\fboxsep}{2pt}\setlength{\fboxrule}{0.4pt}%
+     \href{#1}{\fcolorbox{myblue}{white}{\color{myblue}\scriptsize link}}}%
+}
+
+\begin{document}
+\RaggedRight
+
+% =========================
+% Header (centred, Todd-style)
+% =========================
+\begin{center}
+    {\fontsize{24}{28}\selectfont\bfseries Nicolas Eschenbaum}\\[0.5em]
+    {\small
+        \href{https://neschenbaum.github.io}{neschenbaum.github.io}
+        \enspace\textbar\enspace
+        nicolas.eschenbaum[at]gmail.com
+        \enspace\textbar\enspace
+        \href{https://scholar.google.com/citations?user=8kot8ugAAAAJ}{Google Scholar}
+    }\\[0.35em]
+    {\small Zürich, Switzerland}
+\end{center}
+
+\vspace{0.7em}
+
+{\small
+Economist and competition expert in industrial organization and competition policy, with a focus on algorithmic pricing, digital markets, and AI. I regularly prepare expert reports and provide economic analysis in competition cases and regulatory proceedings, and lead applied and academic research combining game theory, empirical methods, and machine learning.
+\par}
+
+% =========================
+% Positions
+% =========================
+\cvsection{Positions}{positions}
+
+\begin{cvtable}
+\cvrole{2022--present}{AI Lead and Managing Economist (Partner)}{Swiss Economics}{Leading work on AI, digital markets, and competition policy in client and research projects. Member of the executive board.}
+\cvrole{2025--present}{Member, Working Group AI/Algorithms}{Academic Society for Competition Law (ASCOLA)}{Interdisciplinary work on the legal and policy implications of AI and algorithmic systems in competition law.}
+\cvrole{2022--present}{Collaborator}{Institute for Categorical Cybernetics}{Research collaboration on formal and computational approaches to governance, digital systems, and market design.}
+\cvrole{2024--present}{Affiliated Researcher}{Center for Market Design, University of Zurich}{Research on AI and agent-based models, with applications to energy markets.}
+\cvrole{2024--2025}{Global Fellow}{European AI and Society Foundation}{Research on foundation models and competition policy.}
+\cvrole{2018--2024}{Lecturer}{University of St.~Gallen}{Teaching in industrial organization, digitalization, and competition policy.}
+\cvrole{2018--2022}{Postdoctoral Researcher}{University of St.~Gallen}{Research on algorithmic pricing and competition in digital markets, funded by SNSF grant ``Pricing in a Digital World.''}
+\end{cvtable}
+
+% =========================
+% Education
+% =========================
+\cvsection{Education}{education}
+
+\begin{cvtable}
+\cvrole{2013--2018}{Ph.D. in Economics and Finance}{University of St.~Gallen}{\emph{Summa cum laude}. Dissertation: \emph{Essays in Industrial Organization}. Supervisor: Prof.~Stefan Bühler.}
+\cvrole{2011--2012}{M.Sc. in Economics}{University of Edinburgh}{Graduated with honours.}
+\cvrolen{2008--2011}{B.Sc. in Business and Economics}{Maastricht University}
+\end{cvtable}
+
+% =========================
+% Research Visits
+% =========================
+\cvsection{Research Visits}{visits}
+
+\begin{cvtable}
+\cvrole{2020--2021}{Visiting Scholar}{Düsseldorf Institute for Competition Economics (DICE)}{Invited by Prof.~Justus Haucap.}
+\end{cvtable}
+
+% =========================
+% Publications  (start on a new page)
+% =========================
+\clearpage
+\cvsection{Publications}{publications}
+
+\cvsubsection{Peer-reviewed articles}
+\cvpub{Picht PG, Nenadic L, Barnes O, Kuster Y, \me. ``Selective Confusion: An Empirical Analysis of the DMA's Brussels Effect.'' \textit{World Competition}, forthcoming. \srclink{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5618690}{SSRN 5618690}}
+\cvpub{Greber N, \me, Szehr O. ``Peer-to-Peer Electricity Platforms with Endogenous Prices: A Multi-Agent Neural Network Control Approach.'' \textit{Energy and AI}, 2026.}
+\cvpub{Picht PG, Nenadic L, Barnes O, \me, Kuster Y. ``DMA (Verw-)Irrungen: Was die territorialen Umsetzungsstrategien der Torwächter über den Digital Markets Act lehren.'' \textit{Schweizerische Zeitschrift für Wirtschafts- und Finanzmarktrecht (SZW)}, no.~4, 2025. \srclink{https://www.szw.ch/de/artikel/2504-0685-2025-0028/dma-verw-irrungen}{link}}
+\cvpub{Picht PG, Nenadic L, Barnes O, \me, Kuster Y. ``Schweizer DMA-Brussels-Effect? Wie Gatekeeper den DMA in der Schweiz (nicht) umsetzen.'' \textit{sic! Zeitschrift für Immaterialgüter-, Informations- und Wettbewerbsrecht}, 3--14, 2024. \srclink{https://www.zora.uzh.ch/entities/publication/763e6f62-f9a4-440e-9187-11f3ba77cac7}{link}}
+\cvpub{Buehler S, \me. ``Explaining Escalating Prices and Fines: A Unified Approach.'' \textit{Journal of Economic Behavior \& Organization}, 171, 153--164, 2020. \srclink{https://doi.org/10.1016/j.jebo.2020.01.008}{DOI}}
+
+\cvsubsection{Working papers}
+\cvpub{\me. ``Shared Bidding Algorithms and Competition: Evidence from Electricity Markets.'' 2026. \srclink{https://arxiv.org/abs/2607.13002}{arXiv:2607.13002}}
+\cvpub{\me, Greber N. ``Market Power and Platform Design in Decentralized Electricity Trading.'' 2026. \srclink{https://arxiv.org/abs/2603.19988}{arXiv:2603.19988}}
+\cvpub{Buehler S, \me, Lenhard S. ``Dynamic Monopoly Pricing With Multiple Varieties: Trading Up.'' 2025. \srclink{https://arxiv.org/abs/2108.07146}{arXiv:2108.07146}}
+\cvpub{Buehler S, Epper T, \me, Koch R. ``Dynamic Pricing in Bilateral Relationships: Experimental Evidence.'' Working paper, 2025.}
+\cvpub{\me, Greber N. ``Repeated Auctions with Speculators: Arbitrage Incentives and Forks in DAOs.'' 2025. \srclink{https://arxiv.org/abs/2505.21296}{arXiv:2505.21296}}
+\cvpub{\me, Mellgren F, Zahn P. ``Robust Algorithmic Collusion.'' 2022 (presented at the NeurIPS PERLS workshop). \srclink{https://arxiv.org/abs/2201.00345}{arXiv:2201.00345}}
+\cvpub{\me, Liebert H. ``Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions.'' 2021. \srclink{https://arxiv.org/abs/2107.11314}{arXiv:2107.11314}}
+\cvpub{\me. ``Estimating Geographic Market Size Nonparametrically: An Application to Grocery Retailing.'' Working paper, 2018.}
+
+% =========================
+% Grants and Prizes
+% =========================
+\cvsection{Grants and Prizes}{grants}
+
+\begin{cvtable}
+\cvtitle{2024--2025}{The Market for Foundation Models}{European AI and Society Foundation -- CHF~50,000 (PI).}
+\cvtitle{2024--2025}{DMA-effects in Switzerland}{Mercator Foundation -- CHF~30,000 (co-PI).}
+\cvtitle{2022--2025}{ChartEP: Charting Energy Platforms and Market Outcomes under Varying Policy Measures}{Swiss Federal Office of Energy -- CHF~281,215 (PI).}
+\cvtitle{2022}{Young Scholar Award}{CRESSE -- CHF~1,500.}
+\cvtitle{2021--2022}{Computational Learning in Economic Games}{Hasler Foundation -- CHF~35,000 (co-PI).}
+\cvtitle{2021--2022}{The Competitive Effects of Pricing Software Systems}{University of St.~Gallen -- CHF~51,555 (co-PI).}
+\cvtitle{2018--2022}{Pricing in a Digital World}{Swiss National Science Foundation -- CHF~500,000 (co-investigator), grant no.~178836.}
+\end{cvtable}
+
+% =========================
+% Selected Applied and Policy Work
+% =========================
+\cvsection{Selected Applied and Policy Work}{appliedwork}
+
+\begin{cvtable}
+\cvitem{2025--present}{Study on modern pricing methods, pricing algorithms, and risks of collusion, European Commission tender EC-COMP/2025/OP/0053.}
+\cvitem{2025--present}{Regulatory impact assessment of intellectual property rules for AI systems.}
+\cvitem{2022--present}{Competition proceedings involving information exchange and cartel allegations, including in the retail sector.}
+\cvitem{2024--2025}{Market definition and competitive assessment for a major digital platform.}
+\cvitem{2024--2025}{Bidding and coordination analysis in secondary reserve power markets.}
+\cvitem{2024--2025}{Assessment of reserve power requirements in Switzerland and neighbouring countries.}
+\cvitem{2023--2025}{Market-power analysis for energy trading platforms using multi-agent deep reinforcement learning.}
+\cvitem{2023--2024}{Price-elasticity estimation in German wholesale and end-user energy markets, \textit{Wirtschaftspolitik} Nr.~47, State Secretariat for Economic Affairs.}
+\cvitem{2023--2024}{Incentive analysis and mechanism design for a Web3 platform.}
+\cvitem{2024}{Game-theoretic and agent-based analysis of issuance-curve effects on staking behaviour.}
+\end{cvtable}
+
+% =========================
+% Recent Talks and Presentations
+% =========================
+\cvsection{Recent Talks and Presentations}{talks}
+
+\begin{cvtable}
+\cvitem{2026}{Panellist, ``The Next Wave of Tech Enforcement: Global Trends in Regulating Platforms and Algorithms,'' AIJA 13th Antitrust Annual Conference, Düsseldorf.}
+\cvitem{2026}{``Market Power and Platform Design in Decentralized Electricity Trading,'' EARIE Annual Conference, Mannheim.}
+\cvitem{2026}{``Algorithmic Pricing in Practice and Collusion,'' ASCOLA Annual Conference, London.}
+\cvitem{2026}{Invited talk on the DMA's impact for Switzerland, State Secretariat for Economic Affairs (SECO), Bern.}
+\cvitem{2026}{``Economic perspectives on market power in AI markets,'' ASCOLA Working Group on AI/Algorithms workshop.}
+\cvitem{2026}{Invited guest lecture, course ``Digitale Ökonomie'' (Prof.~R.~Kesler), Düsseldorf Institute for Competition Economics (DICE).}
+\end{cvtable}
+
+% =========================
+% Memberships (commented out per request; re-enable by deleting \iffalse and \fi)
+% =========================
+\iffalse
+\cvsection{Memberships}{memberships}
+
+\begin{cvtable}
+\cvitem{2025--present}{Academic Society for Competition Law (ASCOLA), Working Group AI/Algorithms.}
+\cvitem{20XX--present}{\textit{[Add further memberships or affiliations.]}}
+\end{cvtable}
+\fi
+
+% =========================
+% References (commented out per request; re-enable by deleting \iffalse and \fi)
+% =========================
+\iffalse
+\cvsection{References}{references}
+
+Available upon request.
+\fi
+
+\end{document}

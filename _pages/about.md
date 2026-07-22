@@ -1,21 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle:
+subtitle: AI, industrial organization &amp; competition policy.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: my_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p></p>
+  more_info:
 
-news: false  # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
-I am a postdoc and lecturer at the University of St. Gallen and consultant at Swisseconomics/Cryptecon. I apply game theory and machine learning, design incentives, and work on competition policy in digital markets.
+I'm Nicolas Eschenbaum, an economist and competition expert, and a partner and executive-board member at [Swiss Economics](https://www.swiss-economics.ch/) (Managing Economist). I lead the firm's AI practice – holding revenue responsibility, owning client relationships, leading engagement teams, and doing much of the technical modelling myself. I advise regulators and firms, prepare expert reports in competition cases, and lead applied and academic research on algorithmic pricing, digital markets, and AI. I'm also an affiliated researcher at the [Zurich Center for Market Design](https://www.marketdesign.uzh.ch/en.html) (UZH) and collaborate with the [Institute for Categorical Cybernetics](https://cybercat.institute/) and [20squares](https://20squares.xyz).
 
-My latest research funded by the Hasler Foundation integrates a programmatic, modular framework of mathematical games (see the <a href="https://github.com/philipp-zahn/open-games-hs">repository</a> for details) with machine learning libraries (Ray and Rlib in particular; see the underlying research project <a href="https://neschenbaum.github.io/projects/2_project/">here</a>). My postdoc is funded by a four-year research grant from the Swiss National Science Foundation to study dynamic pricing (see the full project <a href="https://neschenbaum.github.io/projects/1_project/">here</a>). I have also studied the role of seller ratings on darknet platforms empirically (the research project is <a href="https://neschenbaum.github.io/projects/3_project/">here</a>).
+## What I research
+
+- **Algorithmic pricing and collusion:** designing and implementing algorithmic pricing systems, and studying how AI and pricing systems coordinate.
+- **Digital markets and regulation:** platform competition and the Digital Markets Act.
+- **Energy markets:** pricing, market power, and the design of electricity-trading platforms.
+
+See [Research](/publications/) for papers and [Applied Work](/applied-work/) for selected projects; my [CV](/cv/) has the full record.

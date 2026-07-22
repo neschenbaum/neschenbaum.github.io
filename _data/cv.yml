@@ -2,96 +2,114 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Nicolas Eschenbaum
+    - name: Based in
+      value: Zürich, Switzerland
     - name: Languages
       value: English, German
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=8kot8ugAAAAJ">scholar.google.com</a>
+
+- title: Positions
+  type: time_table
+  contents:
+    - title: AI Lead and Managing Economist
+      institution: Swiss Economics
+      year: 2022 - present
+      description:
+        - Leading work on AI, digital markets, and competition policy, combining industrial organization and computational methods in applied and research projects.
+    - title: Member, ASCOLA Working Group AI/Algorithms
+      institution: Academic Society for Competition Law (ASCOLA)
+      year: 2025 - present
+      description:
+        - Interdisciplinary work on the legal and policy implications of AI and algorithmic systems in competition law.
+    - title: Collaborator
+      institution: Institute for Categorical Cybernetics
+      year: 2022 - present
+      description:
+        - Research collaboration on formal and computational approaches to governance, digital systems, and market design.
+    - title: Affiliated Researcher
+      institution: Zurich Center for Market Design, University of Zurich
+      year: 2024 - present
+    - title: Global Fellow
+      institution: European AI and Society Foundation
+      year: 2024 - 2025
+      description:
+        - Research on foundation models and competition policy.
+    - title: Lecturer
+      institution: University of St. Gallen
+      year: 2018 - 2024
+      description:
+        - Courses in industrial organization, digitalization, and competition policy.
+    - title: Postdoctoral Researcher
+      institution: University of St. Gallen
+      year: 2018 - 2022
+
+- title: Research Visits
+  type: time_table
+  contents:
+    - title: Visiting Scholar
+      institution: Düsseldorf Institute for Competition Economics (DICE)
+      year: 2020 - 2021
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Economics and Finance
+      institution: University of St. Gallen
+      year: 2013 - 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Summa cum laude &mdash; dissertation <em>Essays in Industrial Organization</em> (supervisor: Prof. Stefan Bühler).
+    - title: M.Sc. in Economics
+      institution: University of Edinburgh
+      year: 2011 - 2012
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with honours.
+    - title: B.Sc. in Business and Economics
+      institution: Maastricht University
+      year: 2008 - 2011
 
-- title: Experience
+- title: Grants and Prizes
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: The Market for Foundation Models
+      institution: European AI and Society Foundation
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - CHF 50,000 (PI).
+    - title: DMA-effects in Switzerland
+      institution: Mercator Foundation
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - CHF 30,000 (co-PI).
+    - title: "ChartEP: Charting Energy Platforms and Market Outcomes under Varying Policy Measures"
+      institution: Swiss Federal Office of Energy
+      year: 2022 - 2025
       description:
+        - CHF 281,215 (PI).
+    - title: Young Scholar Award
+      institution: CRESSE
+      year: 2022
+      description:
+        - CHF 1,500.
+    - title: Computational Learning in Economic Games
+      institution: Hasler Foundation
+      year: 2021 - 2022
+      description:
+        - CHF 35,000 (co-PI).
+    - title: The Competitive Effects of Pricing Software Systems
+      institution: University of St. Gallen
+      year: 2021 - 2022
+      description:
+        - CHF 51,555 (co-PI).
+    - title: Pricing in a Digital World
+      institution: Swiss National Science Foundation
+      year: 2018 - 2022
+      description:
+        - CHF 500,000 (co-investigator), SNSF grant no. 178836.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications & Applied Work
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - The full list of journal articles, conference papers, and working papers is on the <a href="/publications/">Research</a> page.
+    - Selected advisory and applied projects are on the <a href="/applied-work/">Applied Work</a> page.
