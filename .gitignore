@@ -11,3 +11,8 @@ assets/libs/
 node_modules/
 vendor
 .idea
+# LaTeX build artifacts
+cv-long.aux
+cv-long.log
+cv-long.out
+cv-long.pdf
