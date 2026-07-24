@@ -2,7 +2,7 @@
 layout: page
 permalink: /applied-work/
 title: Applied Work
-description: Selected advisory and applied projects for public- and private-sector clients — competition policy, digital markets, energy, and AI regulation.
+description: Selected advisory, applied, and policy-research projects — competition policy, digital markets, energy, and AI regulation.
 nav: true
 nav_order: 3
 ---
@@ -19,6 +19,10 @@ nav_order: 3
   <div class="aw-item">
     <div class="aw-year">2022 – present</div>
     <div class="aw-desc">Competition proceedings involving information exchange and cartel allegations, including in the retail sector.</div>
+  </div>
+  <div class="aw-item">
+    <div class="aw-year">2024 – 2025</div>
+    <div class="aw-desc"><a href="{{ '/applied-work/foundation-models-switching-costs/' | relative_url }}">Market power and switching costs in the foundation-models market</a> — enterprise survey and analysis, European AI &amp; Society Fund Global Fellowship.</div>
   </div>
   <div class="aw-item">
     <div class="aw-year">2024 – 2025</div>
