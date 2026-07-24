@@ -27,7 +27,7 @@ toc:
   - name: References
 ---
 
-*Research note based on work carried out under the European AI &amp; Society Fund Global Fellowship Programme on AI &amp; Market Power. The evidence comes from a small survey and is exploratory.*
+_Research note based on work carried out under the European AI &amp; Society Fund Global Fellowship Programme on AI &amp; Market Power. The evidence comes from a small survey and is exploratory._
 
 ## Summary
 
@@ -102,9 +102,9 @@ Compliance requirements produce the sharpest barriers in the sample.
 
 **Healthcare (n=3).** None of the three healthcare respondents report feasible switching; all three use Anthropic exclusively and all three cite HIPAA Business Associate Agreement (BAA) requirements, clinical validation timelines, and governance sign-off as barriers.
 
-> *"HIPAA compliance and BAA requirements make switching providers nearly impossible — clinical validation alone would take months."*
+> _"HIPAA compliance and BAA requirements make switching providers nearly impossible — clinical validation alone would take months."_
 
-> *"Healthcare compliance and clinical validation create insurmountable barriers — Claude's safety features and HIPAA compliance make it the only viable choice."*
+> _"Healthcare compliance and clinical validation create insurmountable barriers — Claude's safety features and HIPAA compliance make it the only viable choice."_
 
 In the sample, only Anthropic and Azure OpenAI offer HIPAA BAAs. Where a compliance certification is a necessary input and only a few providers offer it, it functions as a barrier to entry that concentrates the market independently of technical merit. Whether limited BAA availability reflects genuine compliance costs or avoidable regulatory complexity is an open question that this sample cannot resolve.
 
@@ -112,7 +112,7 @@ In the sample, only Anthropic and Azure OpenAI offer HIPAA BAAs. Where a complia
 
 **GDPR and self-hosting.** Three organizations (16%) self-host open-source models exclusively, motivated by cost and by EU data-residency requirements:
 
-> *"GDPR requirements mandate EU data residency — self-hosting is only viable option but limits us to open-weight models."*
+> _"GDPR requirements mandate EU data residency — self-hosting is only viable option but limits us to open-weight models."_
 
 Data-residency requirements can separate the EU market, where self-hosted and EU-hosted options are favored, from a market where all providers are viable.
 
@@ -120,15 +120,15 @@ Data-residency requirements can separate the EU market, where self-hosted and EU
 
 **Routing layers.** 32% of organizations (6/19) use routing or gateway layers, and those that do route the majority of their traffic through them, so routers are production infrastructure rather than experiments. Router users report clear benefits: 83% report a 10–50% cost reduction over the past 6–12 months through cost-based routing, and half cite failover and redundancy. But quality parity remains a challenge:
 
-> *"Router helps but quality differences between providers require significant prompt tuning for our sales workflows."*
+> _"Router helps but quality differences between providers require significant prompt tuning for our sales workflows."_
 
-> *"Multi-provider redundancy is critical for uptime but maintaining quality parity across providers requires constant eval tuning."*
+> _"Multi-provider redundancy is critical for uptime but maintaining quality parity across providers requires constant eval tuning."_
 
 Routers reduce the cost of moving traffic between providers but not the quality differences that remain provider-specific. They ease multi-homing without delivering full substitutability. Router adoption also requires infrastructure investment: no startup in the sample uses one, whereas roughly 40% of larger organizations do.
 
 **Commercial terms.** Most organizations (68%) report no contractual restrictions on switching. Volume commitments (21%) and exclusivity or bundling (16%) concentrate in large enterprises, where 60% face one or the other, against 14% of smaller organizations. Bundling is often tied to cloud commitments:
 
-> *"Enterprise agreement with Microsoft includes bundled Azure credits and unified governance — switching would require renegotiating entire cloud contract."*
+> _"Enterprise agreement with Microsoft includes bundled Azure credits and unified governance — switching would require renegotiating entire cloud contract."_
 
 **Cost and quality trends.** Over the preceding 6–12 months, 79% of organizations report cost reductions (median 10–50%) and 68% report quality improvements (median 10–50%); none report cost increases or quality declines. Costs falling while quality rises is consistent with active competition on both dimensions, and does not, at least in this window, show incumbents extracting rents from locked-in customers.
 
@@ -138,7 +138,7 @@ The central pattern in the data is an apparent tension: 68% of organizations use
 
 The resolution is that multi-homing is achieved through parallel deployments for new use cases, not through migration of existing workloads. Organizations add providers for new projects and route new traffic flexibly, but existing pipelines remain provider-specific. As one respondent put it:
 
-> *"We only upgrade models but don't switch them."*
+> _"We only upgrade models but don't switch them."_
 
 In the terms of the switching-costs literature, the market looks contestable for new deployments — where organizations evaluate several providers and face low switching costs — but exhibits lock-in for existing deployments, where technical debt accumulates and switching costs rise over time. The theory (Klemperer, 1987) predicts aggressive competition for new customers alongside the potential to harvest existing ones. The cost and quality trends here do not show harvesting, which is consistent with a market still in a growth phase and disciplined by entry.
 
@@ -158,16 +158,16 @@ This survey offers early, exploratory evidence on switching costs and market str
 
 ## References
 
-Armstrong, M. (2006). Competition in two-sided markets. *RAND Journal of Economics*, 37(3), 668–691.
+Armstrong, M. (2006). Competition in two-sided markets. _RAND Journal of Economics_, 37(3), 668–691.
 
-Farrell, J., &amp; Shapiro, C. (1988). Dynamic competition with switching costs. *RAND Journal of Economics*, 19(1), 123–137.
+Farrell, J., &amp; Shapiro, C. (1988). Dynamic competition with switching costs. _RAND Journal of Economics_, 19(1), 123–137.
 
-Klemperer, P. (1987). Markets with consumer switching costs. *Quarterly Journal of Economics*, 102(2), 375–394.
+Klemperer, P. (1987). Markets with consumer switching costs. _Quarterly Journal of Economics_, 102(2), 375–394.
 
-Menlo Ventures (2025). *2025: The State of Generative AI in the Enterprise.*
+Menlo Ventures (2025). _2025: The State of Generative AI in the Enterprise._
 
-Rey, P., &amp; Tirole, J. (2007). A primer on foreclosure. *Handbook of Industrial Organization*, 3, 2145–2220.
+Rey, P., &amp; Tirole, J. (2007). A primer on foreclosure. _Handbook of Industrial Organization_, 3, 2145–2220.
 
-Rochet, J.-C., &amp; Tirole, J. (2003). Platform competition in two-sided markets. *Journal of the European Economic Association*, 1(4), 990–1029.
+Rochet, J.-C., &amp; Tirole, J. (2003). Platform competition in two-sided markets. _Journal of the European Economic Association_, 1(4), 990–1029.
 
-Stigler, G. J. (1971). The theory of economic regulation. *Bell Journal of Economics and Management Science*, 2(1), 3–21.
+Stigler, G. J. (1971). The theory of economic regulation. _Bell Journal of Economics and Management Science_, 2(1), 3–21.
