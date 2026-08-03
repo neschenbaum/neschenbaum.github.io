@@ -27,11 +27,11 @@ toc:
   - name: References
 ---
 
-_Research note based on work carried out under the European AI &amp; Society Fund Global Fellowship Programme on AI &amp; Market Power. The evidence comes from a small survey and is exploratory._
+_Research note based on work carried out under the European AI &amp; Society Fund Global Fellowship Programme on AI &amp; Market Power._
 
 ## Summary
 
-The foundation models market has grown very rapidly, and competition authorities have begun to ask whether customers face lock-in despite widespread API standardization. This note reports exploratory evidence from a survey of 19 organizations with production AI deployments, covering provider choices, switching costs, and contractual arrangements. Two providers, Anthropic and OpenAI, are used far more than any other in the sample. Switching costs scale with system complexity: simple use cases can be moved in hours to days, while complex pipelines take weeks or are reported as not feasible. Regulated industries, particularly healthcare, report the highest barriers, driven by compliance requirements rather than technical factors. Routing layers reduce cost differences across providers but not quality differences, and few customers say they would absorb a large price increase without optimizing, routing, or switching traffic. Given the small, self-selected sample, the findings are exploratory.
+The foundation models market has grown very rapidly, and competition authorities have begun to ask whether customers face lock-in despite widespread API standardization. This note reports evidence from a survey of 19 organizations with production AI deployments, covering provider choices, switching costs, and contractual arrangements. Two providers, Anthropic and OpenAI, are used far more than any other in the sample. Switching costs scale with system complexity: simple use cases can be moved in hours to days, while complex pipelines take weeks or are reported as not feasible. Regulated industries, particularly healthcare, report the highest barriers, driven by compliance requirements rather than technical factors. Routing layers reduce cost differences across providers but not quality differences, and few customers say they would absorb a large price increase without optimizing, routing, or switching traffic. 
 
 ## 1. Introduction
 
@@ -39,7 +39,7 @@ The foundation models market has emerged as one of the fastest-scaling software 
 
 Despite widespread API standardization and the emergence of routing and gateway layers, questions persist about the extent to which customers face lock-in. The tension is relevant for policy: if switching costs are low, market concentration may reflect efficient competition and quality differentiation rather than anticompetitive conduct; if switching costs are high, concentration combined with lock-in could warrant closer attention under competition law.
 
-This note investigates four questions:
+This research investigates four questions:
 
 1. What is the current distribution of provider adoption in production deployments, and how does it vary across use cases?
 2. How do switching costs vary by use case complexity, organization size, and industry vertical?
@@ -52,14 +52,13 @@ The analysis draws on the switching costs literature (Klemperer, 1987; Farrell &
 
 We developed a 46-question structured survey administered online between September and November 2025. It captured organization characteristics, provider and framework adoption, system complexity, switching costs, commercial arrangements, and cost and quality trends over the preceding 6–12 months. Respondents were recruited through professional networks in European AI development communities, with emphasis on production deployments rather than pilots.
 
-The sample is 19 organizations, spread across firm sizes from 1–49 to 10,000+ employees. Respondents were product leaders (53%), CTOs or CIOs (32%), engineering leads (11%), and one founder/CEO (5%). The sample emphasizes EU and GDPR-regulated organizations, reflecting the fellowship's focus.
+The sample consists of 19 organizations, spread across firm sizes from 1–49 to 10,000+ employees. Respondents were product leaders (53%), CTOs or CIOs (32%), engineering leads (11%), and one founder/CEO (5%). The sample emphasizes EU and GDPR-regulated organizations, reflecting the fellowship's focus.
 
-Given the sample size, we use descriptive statistics and cross-tabulation rather than inferential tests, and we avoid causal language throughout. Several limitations should be kept in mind from the outset and are returned to in Section 9:
+Given the sample size, we use descriptive statistics and cross-tabulation rather than inferential tests. Certain limitations should be kept in mind from the outset and are returned to in Section 9:
 
 - **Sample size.** n=19 is too small for statistical inference; effect sizes are reported without significance tests.
-- **Selection bias.** Organizations willing to discuss dependencies may differ from those that are not; recruitment through professional networks may oversample sophisticated users.
+- **Selection bias.** Organizations willing to discuss dependencies may differ from those that are not; recruitment through professional networks may in particular oversample sophisticated users.
 - **Self-reported data.** Switching-cost estimates are hypothetical rather than revealed preferences, and ex ante estimates typically underestimate ex post costs.
-- **Cross-sectional design.** The data cannot separate selection effects from treatment effects and does not support causal claims.
 - **Geographic skew.** The EU and GDPR focus may overstate compliance barriers relative to the global market.
 
 ## 3. Market Structure and Provider Adoption
@@ -91,7 +90,7 @@ Adoption also varies by use case. Both healthcare respondents use Anthropic excl
 
 Organizations report varying ratios of simple atomic queries to complex multi-step pipelines. A high share of simple queries (75–100%) concentrates in coding and content generation, where models provide copilot-style assistance, while healthcare and legal applications skew toward complex pipelines requiring retrieval, tool use, and multi-step reasoning.
 
-**89% of organizations (17/19) operate at least one complex pipeline**; only 11% (2/19) use exclusively simple API calls. Among the 17 with complex systems, the most common components are embedders (76%), chunking (71%), and vector databases (59%) — the combination of retrieval-augmented generation, which appears in 59% (10/17) of complex pipelines. Planner or agent components are less common (24%), and only one organization describes the planning-execution-observation loops characteristic of autonomous agents. This is consistent with the Menlo Ventures (2025) finding that a small minority of enterprise deployments qualify as true agents. Production systems favor established retrieval patterns over cutting-edge agentic architectures. One caveat matters here: the pipelines this survey measures are largely custom-built — bespoke prompt templates, evaluation harnesses, and retrieval stacks assembled in-house — and it was fielded (September–November 2025) just as generic agents such as Claude Code and Codex were beginning to replace some of that custom scaffolding. As they do, the switching costs documented below may migrate — from a team's own pipeline toward the agent and the provider behind it — rather than simply disappear.
+**89% of organizations (17/19) operate at least one complex pipeline**; only 11% (2/19) use exclusively simple API calls. Among the 17 with complex systems, the most common components are embedders (76%), chunking (71%), and vector databases (59%) — the combination of retrieval-augmented generation, which appears in 59% (10/17) of complex pipelines. Planner or agent components are less common (24%), and only one organization describes the planning-execution-observation loops characteristic of autonomous agents. This is consistent with the Menlo Ventures (2025) finding that a small minority of enterprise deployments qualify as true agents. Production systems favor established retrieval patterns over cutting-edge agentic architectures. However, the pipelines this survey measures are largely custom-built — bespoke prompt templates, evaluation harnesses, and retrieval stacks assembled in-house — and it was fielded (September–November 2025) just as generic agents such as Claude Code and Codex were beginning to replace some of that custom scaffolding. As agents proliferate, the switching costs documented below could change and migrate from a team's own pipeline toward the agent and the provider behind it.
 
 ## 5. Switching Costs
 
@@ -163,17 +162,17 @@ Routers reduce the cost of moving traffic between providers but not the quality 
   <div class="note-fig-cap">Reported response to a 25% price increase by the primary provider (share of respondents; multiple selections allowed).</div>
 </div>
 
-The pattern fits the rest of the survey. Demand is far from captive: few customers would absorb a double-digit price rise outright, and most have at least a partial margin of response. But "switching," here as elsewhere, tends to mean shifting new or marginal traffic rather than migrating an existing complex pipeline — so the discipline this imposes on providers is real but incomplete.
+The pattern fits the rest of the survey. Demand is far from captive: few customers would absorb a double-digit price rise outright, and most have at least a partial margin of response. But "switching," here as elsewhere, tends to mean shifting new or marginal traffic rather than migrating an existing complex pipeline.
 
 ## 8. Discussion
 
-Two facts sit side by side. Switching a simple workload is usually cheap — hours, in most cases — yet a majority of organizations concentrate on a single provider (58%), and 89% run complex pipelines that they expect would take days to weeks to move. Low headline switching costs coexist with real stickiness.
+Two findings stand out. Switching a simple workload is usually cheap — hours, in most cases — yet a majority of organizations concentrate on a single provider (58%), and 89% run complex pipelines that they expect would take days to weeks to move. Low headline switching costs coexist with real stickiness.
 
-The resolution is that multi-homing, where it occurs (42%), is achieved through parallel deployments for new use cases rather than migration of existing workloads. Organizations add providers for new projects and route new traffic flexibly, but existing pipelines remain provider-specific. As one respondent put it:
+The reason is that multi-homing, where it occurs (42%), is achieved through parallel deployments for new use cases rather than migration of existing workloads. Organizations add providers for new projects and route new traffic flexibly, but existing pipelines remain provider-specific. As one respondent put it:
 
 > _"We only upgrade models but don't switch them."_
 
-In the terms of the switching-costs literature, the market looks contestable for new deployments — where organizations evaluate several providers and face low switching costs — but exhibits lock-in for existing deployments, where technical debt accumulates and switching costs rise over time. The theory (Klemperer, 1987) predicts aggressive competition for new customers alongside the potential to harvest existing ones. The cost and quality trends here do not show harvesting, which is consistent with a market still in a growth phase and disciplined by entry.
+In the terms of the switching-costs literature, the market looks contestable for new deployments — where organizations evaluate several providers and face low switching costs — but exhibits lock-in for existing deployments, where technical debt accumulates and switching costs rise over time. The theory (Klemperer, 1987) predicts aggressive competition for new customers alongside the potential to harvest existing ones. The cost and quality trends here do not show harvesting, which is consistent with a market still in a growth phase and disciplined by entry. Also note again that this survey targeted larger, more sophisticated organizations and business-level deployment, instead of end-user AI adoption.
 
 Three observations follow that are relevant for competition analysis, and that a larger study could test:
 
@@ -187,7 +186,7 @@ The sample is small (n=19), self-selected, and skewed toward EU and GDPR-regulat
 
 ## 10. Conclusion
 
-This survey offers early, exploratory evidence on switching costs and market structure in the foundation models market, from organizations with production deployments. Two providers dominate the sample; switching costs rise sharply with system complexity; and compliance requirements create the hardest barriers, particularly in healthcare. Routing layers and open-source alternatives constrain provider power along the cost dimension but not fully along the quality dimension. Taken together, the picture is of early-stage platform competition in which rapidly improving quality and falling costs coexist with emerging sources of lock-in. Whether those dependencies harden into durable market power or erode through better tooling and standardization is an open question that warrants continued empirical work. It is also a moving target in a specific way: the switching costs measured here are those of custom-built pipelines, and generic agents such as Claude Code and Codex have since begun to replace some of that bespoke scaffolding. A follow-up should ask whether that dissolves the lock-in documented here or merely relocates it — from a team's own pipeline to the agent and the provider behind it.
+This survey provides evidence from a small survey on switching costs and market structure in the foundation models market, from organizations with production deployments. Anthropic and OpenAI dominate the sample. We find that switching costs rise significantly with system/application complexity and compliance requirements create the hardest barriers, particularly observed in healthcare. Routing layers and open-source alternatives constrain provider power along the cost dimension but not fully along the quality dimension. Taken together, the picture is of early-stage platform competition in which rapidly improving quality and falling costs coexist with emerging sources of lock-in. It is also a moving target: the switching costs measured here are predominantly those of custom-built pipelines, and generic agents such as Claude Code and Codex have since begun to replace some of that bespoke scaffolding. A follow-up should ask whether that dissolves the lock-in documented here or merely relocates it — from a team's own pipeline to the agent and the provider behind it.
 
 ## References
 
