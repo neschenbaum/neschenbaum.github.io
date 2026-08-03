@@ -52,7 +52,7 @@ The analysis draws on the switching costs literature (Klemperer, 1987; Farrell &
 
 We developed a 46-question structured survey administered online between September and November 2025. It captured organization characteristics, provider and framework adoption, system complexity, switching costs, commercial arrangements, and cost and quality trends over the preceding 6–12 months. Respondents were recruited through professional networks in European AI development communities, with emphasis on production deployments rather than pilots.
 
-The sample is 19 organizations, spread across firm sizes from 1–49 to 10,000+ employees. Respondents were CTOs or CIOs (42%), product leaders (47%), and engineering leads (11%). The sample emphasizes EU and GDPR-regulated organizations, reflecting the fellowship's focus.
+The sample is 19 organizations, spread across firm sizes from 1–49 to 10,000+ employees. Respondents were product leaders (53%), CTOs or CIOs (32%), engineering leads (11%), and one founder/CEO (5%). The sample emphasizes EU and GDPR-regulated organizations, reflecting the fellowship's focus.
 
 Given the sample size, we use descriptive statistics and cross-tabulation rather than inferential tests, and we avoid causal language throughout. Several limitations should be kept in mind from the outset and are returned to in Section 9:
 
@@ -66,51 +66,64 @@ Given the sample size, we use descriptive statistics and cross-tabulation rather
 
 Respondents could select multiple providers, so adoption rates are reported as the share of organizations using each provider and do not sum to 100%.
 
-- **Anthropic (Claude):** 47% of organizations (9/19)
-- **OpenAI (GPT API):** 42% (8/19)
-- **Azure OpenAI Service:** 21% (4/19)
-- **Google (Gemini):** 16% (3/19)
-- **Open-source (self-hosted):** 16% (3/19)
-- **Mistral AI:** 11% (2/19)
-- **xAI (Grok):** 5% (1/19)
+<style>
+.note-fig { margin: 1.6rem 0; text-align: center; }
+.note-fig img { max-width: 100%; height: auto; }
+.note-fig .fig-dark { display: none; }
+html[data-theme="dark"] .note-fig .fig-light { display: none; }
+html[data-theme="dark"] .note-fig .fig-dark { display: inline-block; }
+.note-fig-cap { font-size: 0.85rem; color: #828282; margin-top: 0.5rem; }
+</style>
 
-Anthropic and OpenAI are used far more than any other provider, and nearly every organization uses at least one of the two. These sample shares are broadly in line with the Menlo Ventures (2025) enterprise report, which finds Anthropic at 40% of LLM API spend and OpenAI at 27%; the somewhat higher OpenAI share here may reflect sample composition.
+<div class="note-fig">
+  <img class="fig-light" src="{{ '/assets/img/foundation-models-note/fig1_providers_light.png' | relative_url }}" alt="Provider adoption as a share of the 19 organizations: Anthropic 58%, OpenAI 53%, Google, Azure OpenAI and open-source 21% each, Mistral 16%, xAI 5%." />
+  <img class="fig-dark" src="{{ '/assets/img/foundation-models-note/fig1_providers_dark.png' | relative_url }}" alt="Provider adoption as a share of the 19 organizations: Anthropic 58%, OpenAI 53%, Google, Azure OpenAI and open-source 21% each, Mistral 16%, xAI 5%." />
+  <div class="note-fig-cap">Provider adoption as a share of organizations (n = 19). Organizations can use more than one provider, so shares do not sum to 100%.</div>
+</div>
 
-Despite this concentration, **68% of organizations (13/19) use multiple providers.** Multi-homing is more common among larger organizations: 60% of large enterprises (10,000+ employees) use three or more providers, against 25% of startups. The 32% that use a single provider are concentrated in regulated industries, in enterprise agreements with cloud bundling, and in smaller organizations with limited resources.
+Anthropic and OpenAI are used far more than any other provider, and nearly every organization uses at least one of the two. These sample shares run above the Menlo Ventures (2025) enterprise report, which finds Anthropic at 40% of LLM API spend and OpenAI at 27%; both providers are higher here, which may reflect the sample's small size and composition.
 
-Adoption also varies by use case. Healthcare respondents (3/3) use Anthropic exclusively; coding respondents lean toward OpenAI and Azure OpenAI; content generation is more evenly split across providers. With only a handful of organizations per vertical these differences are indicative rather than precise, but they suggest that a single horizontal "foundation models market" may obscure meaningful variation across use cases.
+The more common pattern, though, is concentration on a single provider: **a majority of organizations (58%, 11/19) use just one**, while 42% (8/19) use two or more. Multi-homing rises with organization size — 60% of large enterprises (10,000+ employees) use three or more providers, against one of four startups — and single-provider use is most common in regulated industries, under enterprise agreements with cloud bundling, and among smaller organizations with limited resources.
+
+Adoption also varies by use case. Both healthcare respondents use Anthropic exclusively; coding respondents lean toward OpenAI and Azure OpenAI; content generation is more evenly split across providers. With only a handful of organizations per vertical these differences are indicative rather than precise, but they suggest that a single horizontal "foundation models market" may obscure meaningful variation across use cases.
 
 ## 4. Use Case Complexity and Architecture
 
 Organizations report varying ratios of simple atomic queries to complex multi-step pipelines. A high share of simple queries (75–100%) concentrates in coding and content generation, where models provide copilot-style assistance, while healthcare and legal applications skew toward complex pipelines requiring retrieval, tool use, and multi-step reasoning.
 
-**84% of organizations (16/19) operate at least one complex pipeline**; only 16% use exclusively simple API calls. Among the 16 with complex systems, the most common components are embedders (81%), chunking (75%), and vector databases (75%) — the combination of retrieval-augmented generation, which appears in 75% of complex pipelines. Planner or agent components are less common (38%), and only one organization describes the planning-execution-observation loops characteristic of autonomous agents. This is consistent with the Menlo Ventures (2025) finding that a small minority of enterprise deployments qualify as true agents. Production systems favor established retrieval patterns over cutting-edge agentic architectures.
+**89% of organizations (17/19) operate at least one complex pipeline**; only 11% (2/19) use exclusively simple API calls. Among the 17 with complex systems, the most common components are embedders (76%), chunking (71%), and vector databases (59%) — the combination of retrieval-augmented generation, which appears in 59% (10/17) of complex pipelines. Planner or agent components are less common (24%), and only one organization describes the planning-execution-observation loops characteristic of autonomous agents. This is consistent with the Menlo Ventures (2025) finding that a small minority of enterprise deployments qualify as true agents. Production systems favor established retrieval patterns over cutting-edge agentic architectures.
 
 ## 5. Switching Costs
 
-**Simple use cases** can generally be moved between providers, but with real friction. The median estimate is 3–8 hours (32% of organizations), with 26% reporting 2–7 days and 16% reporting switching as not feasible.
+**Simple use cases** can generally be moved between providers, but with real friction. The median estimate is 3–8 hours (26% of organizations, 5/19), with 21% (4/19) reporting 2–7 days and 16% (3/19) reporting switching as not feasible.
 
-**Complex pipelines** are markedly harder. Among the 16 organizations with complex systems, the median estimate is 2–7 days (31%), and **25% (4/16) report switching as not feasible.** A further 25% estimate one to four weeks.
+**Complex pipelines** are markedly harder. Among the 17 organizations with complex systems, the median estimate is 2–7 days, and **24% (4/17) report switching as not feasible.** A further 35% (6/17) estimate one to four weeks.
+
+<div class="note-fig">
+  <img class="fig-light" src="{{ '/assets/img/foundation-models-note/fig2_switching_light.png' | relative_url }}" alt="Time to switch primary model provider, simple use cases versus complex pipelines. Simple cases cluster at hours; complex pipelines spread into weeks and 'not feasible'." />
+  <img class="fig-dark" src="{{ '/assets/img/foundation-models-note/fig2_switching_dark.png' | relative_url }}" alt="Time to switch primary model provider, simple use cases versus complex pipelines. Simple cases cluster at hours; complex pipelines spread into weeks and 'not feasible'." />
+  <div class="note-fig-cap">Time to switch primary model provider, by pipeline complexity (number of organizations).</div>
+</div>
 
 Even where switching is feasible, it requires substantial re-engineering. Among organizations with complex pipelines, the median estimate is that 21–50% of prompts require rewriting when changing providers, indicating that prompt engineering is highly provider-specific rather than interchangeable.
 
-Asked where switching hurts most for complex pipelines, respondents point to prompt templates (44%), evaluation harnesses (38%), governance sign-off (31%), tool-calling APIs (25%), and response schemas (19%). Technical debt from prompt optimization and evaluation infrastructure is the primary source of friction; governance processes add organizational inertia independent of the technical work. For simple use cases, 37% report no significant blockers, and where barriers exist they stem from compliance and contract terms rather than technical factors.
+Asked where switching hurts most, respondents point to prompt templates and governance sign-off (each cited by nine of nineteen), evaluation harnesses (seven), tool-calling APIs (six), and response schemas (four). Technical debt from prompt optimization and evaluation infrastructure is a primary source of friction; governance processes add organizational inertia independent of the technical work. The barriers that arise for simple use cases are contractual or compliance-related — contract or commitment terms and safety/policy gates (each cited by seven respondents) — rather than technical.
 
 ## 6. Compliance and Regulated Verticals
 
 Compliance requirements produce the sharpest barriers in the sample.
 
-**Healthcare (n=3).** None of the three healthcare respondents report feasible switching; all three use Anthropic exclusively and all three cite HIPAA Business Associate Agreement (BAA) requirements, clinical validation timelines, and governance sign-off as barriers.
+**Healthcare (n=2).** Neither healthcare respondent reports feasible switching; both use Anthropic exclusively and both cite HIPAA Business Associate Agreement (BAA) requirements, clinical validation timelines, and governance sign-off as barriers.
 
 > _"HIPAA compliance and BAA requirements make switching providers nearly impossible — clinical validation alone would take months."_
 
 > _"Healthcare compliance and clinical validation create insurmountable barriers — Claude's safety features and HIPAA compliance make it the only viable choice."_
 
-In the sample, only Anthropic and Azure OpenAI offer HIPAA BAAs. Where a compliance certification is a necessary input and only a few providers offer it, it functions as a barrier to entry that concentrates the market independently of technical merit. Whether limited BAA availability reflects genuine compliance costs or avoidable regulatory complexity is an open question that this sample cannot resolve.
+Both healthcare respondents hold a HIPAA BAA, in each case with Anthropic. Where a compliance certification is a necessary input and only a few providers offer it, it functions as a barrier to entry that concentrates the market independently of technical merit. Whether limited BAA availability reflects genuine compliance costs or avoidable regulatory complexity is an open question that this sample cannot resolve.
 
 **Legal and finance.** One legal respondent uses Google Gemini exclusively because of its long context window, and estimates that switching would require rewriting 51–100% of prompts and chunking strategies that reduce quality. Feature-level differentiation can create quasi-lock-in for use cases where a specific capability is critical, even when switching is technically possible.
 
-**GDPR and self-hosting.** Three organizations (16%) self-host open-source models exclusively, motivated by cost and by EU data-residency requirements:
+**GDPR and self-hosting.** Two organizations (11%) self-host open-source models exclusively, motivated by cost and by EU data-residency requirements:
 
 > _"GDPR requirements mandate EU data residency — self-hosting is only viable option but limits us to open-weight models."_
 
@@ -118,7 +131,7 @@ Data-residency requirements can separate the EU market, where self-hosted and EU
 
 ## 7. Routing Layers, Commercial Terms, and Trends
 
-**Routing layers.** 32% of organizations (6/19) use routing or gateway layers, and those that do route the majority of their traffic through them, so routers are production infrastructure rather than experiments. Router users report clear benefits: 83% report a 10–50% cost reduction over the past 6–12 months through cost-based routing, and half cite failover and redundancy. But quality parity remains a challenge:
+**Routing layers.** 32% of organizations (6/19) use routing or gateway layers, and those that do route the majority of their traffic through them, so routers are production infrastructure rather than experiments. Router users report clear benefits: all six report a 10–50% cost reduction over the past 6–12 months through cost-based routing, and four of the six cite fallback and redundancy. But quality parity remains a challenge:
 
 > _"Router helps but quality differences between providers require significant prompt tuning for our sales workflows."_
 
@@ -126,17 +139,17 @@ Data-residency requirements can separate the EU market, where self-hosted and EU
 
 Routers reduce the cost of moving traffic between providers but not the quality differences that remain provider-specific. They ease multi-homing without delivering full substitutability. Router adoption also requires infrastructure investment: no startup in the sample uses one, whereas roughly 40% of larger organizations do.
 
-**Commercial terms.** Most organizations (68%) report no contractual restrictions on switching. Volume commitments (21%) and exclusivity or bundling (16%) concentrate in large enterprises, where 60% face one or the other, against 14% of smaller organizations. Bundling is often tied to cloud commitments:
+**Commercial terms.** Most organizations (68%) report no contractual restrictions on switching. Volume commitments (21%) and exclusivity or bundling (16%) concentrate in large enterprises, where four of five (10,000+ employees) face one or the other, against 14% of smaller organizations. Bundling is often tied to cloud commitments:
 
 > _"Enterprise agreement with Microsoft includes bundled Azure credits and unified governance — switching would require renegotiating entire cloud contract."_
 
-**Cost and quality trends.** Over the preceding 6–12 months, 79% of organizations report cost reductions (median 10–50%) and 68% report quality improvements (median 10–50%); none report cost increases or quality declines. Costs falling while quality rises is consistent with active competition on both dimensions, and does not, at least in this window, show incumbents extracting rents from locked-in customers.
+**Cost and quality trends.** Over the preceding 6–12 months, almost all organizations report lower unit costs (18/19, 79% in the 10–50% band) and most report higher quality (15/19, 68% in the 10–50% band); none report higher costs or lower quality. Costs falling while quality rises is consistent with active competition on both dimensions, and does not, at least in this window, show incumbents extracting rents from locked-in customers.
 
 ## 8. Discussion
 
-The central pattern in the data is an apparent tension: 68% of organizations use multiple providers, which suggests low barriers, yet 84% report that switching an existing deployment would take days to weeks, which suggests high friction.
+Two facts sit side by side. Switching a simple workload is usually cheap — hours, in most cases — yet a majority of organizations concentrate on a single provider (58%), and 89% run complex pipelines that they expect would take days to weeks to move. Low headline switching costs coexist with real stickiness.
 
-The resolution is that multi-homing is achieved through parallel deployments for new use cases, not through migration of existing workloads. Organizations add providers for new projects and route new traffic flexibly, but existing pipelines remain provider-specific. As one respondent put it:
+The resolution is that multi-homing, where it occurs (42%), is achieved through parallel deployments for new use cases rather than migration of existing workloads. Organizations add providers for new projects and route new traffic flexibly, but existing pipelines remain provider-specific. As one respondent put it:
 
 > _"We only upgrade models but don't switch them."_
 
