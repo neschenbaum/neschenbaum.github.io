@@ -6,25 +6,25 @@
   abbr={arXiv},
   author   = {Nicolas Eschenbaum},
   title    = {Shared Bidding Algorithms and Competition: Evidence from Electricity Markets},
-  month    = jul,
+  month    = aug,
   year     = {2026},
   keywords = {Bidding algorithms, Algorithmic competition, Electricity markets, Collusion},
-  abstract = {Competing firms increasingly delegate pricing and bidding decisions to algorithms
-  supplied by the same third-party providers. We study whether a shared algorithm leads competitors
-  to internalise one another's profits, using data from the Australian National Electricity Market,
-  where every battery's bids are observed at 5-minute frequency and can be linked to an identifiable
-  autobidding provider. Bids constructed by the same provider co-move, and do so more strongly after
-  a disclosure reform made the common scarcity state easier to observe: the same information that
-  steers batteries towards efficient arbitrage also synchronises the bids of competitors who share a
-  provider. To separate co-movement due to shared information from joint profit maximisation, we
-  estimate each battery's dynamic value of stored energy and reclear the market under counterfactual
-  bids. Owner-level profits cannot rationalise observed bidding: batteries forgo profitable dispatch
-  where it would depress the prices earned by same-provider batteries owned by rival firms, and the
-  estimated weight on those rivals' profits is close to one. We find evidence of this conduct only
-  where a provider's share of near-margin battery capacity exceeds roughly 30%, corresponding to an
-  installed share of roughly 20%. The identified conduct costs consumers an annualised $5.5 million
-  on the current fleet, and it arises at the level of the algorithm provider rather than the asset
-  owner, a layer that ownership-based concentration screens do not capture.},
+  abstract = {Competing firms increasingly delegate market decisions to algorithms supplied by the
+  same third-party providers. We study whether a shared algorithm leads competitors to internalise
+  one another's profits, using data from the Australian National Electricity Market, where batteries'
+  bids are observed at 5-minute frequency and can be linked to an autobidding provider. Bids
+  constructed by the same provider co-move, and do so more strongly after a disclosure reform made the
+  scarcity state easier to observe: the same information that steers batteries towards efficient
+  arbitrage also synchronises the bids of competitors who share a provider. To separate co-movement
+  from joint profit maximisation, we perform a conduct test by estimating each battery's dynamic value
+  of stored energy and reclearing the market under counterfactual bids. We find that batteries forgo
+  profitable dispatch in the evening peak when it would lower the profit of same-provider batteries
+  owned by rival firms. The estimated conduct parameter is close to one. But this effect arises only
+  where a provider's share of near-margin battery capacity exceeds roughly 30%. The identified conduct
+  costs consumers an annualised $5.5 million given the battery fleet from 2025, and concentration
+  analysis based on ownership would treat these batteries as independent competitors and miss the
+  impact of shared autobidding software.},
+  pdf={shared_bidding_algorithms.pdf},
   arxiv={2607.13002},
   bibtex_show={true},
   selected={true}
@@ -44,8 +44,23 @@
   abbr={WP},
   author   = {Nicolas Eschenbaum and Janusz M. Meylahn},
   title    = {Auditing Algorithmic Collusion from Strategy Graphs},
+  month    = aug,
   year     = {2026},
   keywords = {Algorithmic collusion, Auditing, Reinforcement learning, Competition policy},
+  abstract = {Detecting algorithmic collusion is challenging because regulators often have limited
+  access to firms' algorithms, training data, and market information. We study an intermediate-information
+  regime in which an auditor can query firms' frozen pricing policies and construct the induced strategy
+  graph. Using a complete characterization of Nash equilibria in a repeated pricing game, we identify
+  graph-theoretic features of strategy graphs that are associated with collusive reward-and-punishment
+  schemes, including maximum betweenness, attractor in-degree, and average path length. We then test
+  these metrics on policies learned by decentralized Q-learning and the Q-learning algorithm of Calvano
+  et al. (2020). We find that especially the maximum betweenness and attractor in-degree are strongly
+  correlated with the standard profit-based Collusion Index. Importantly, the proposed metrics rely only
+  on the unlabeled topology of strategy graphs and require neither price histories, demand estimates,
+  nor competitive and monopoly benchmarks. Our results suggest that the structure of frozen pricing
+  policies contains robust signals of collusion among reinforcement learning algorithms and provides a
+  promising basis for auditing algorithmic pricing systems under limited information.},
+  pdf={auditing_algorithmic_collusion.pdf},
   bibtex_show={true},
   selected={true}
 }
@@ -54,26 +69,37 @@
   abbr={Energy & AI},
   author   = {Nicolas Greber and Nicolas Eschenbaum and Oleg Szehr},
   journal  = {Energy and AI},
-  title    = {Peer-to-Peer Electricity Platforms with Endogenous Prices: A Multi-Agent Neural Network Control Approach},
+  title    = {Peer-to-peer electricity platforms with endogenous prices: A Multi-Agent Neural Network Control approach},
   year     = {2026},
   keywords = {Peer-to-peer (P2P) electricity trading, Energy platforms, Multi-agent reinforcement learning, Neural networks, Market design},
-  abstract = {We introduce Multi-Agent Deep Hedging (MADH), a computational framework
-  that extends deep reinforcement learning to markets with endogenous price formation. MADH
-  embeds a differentiable market-clearing mechanism into the learning process, enabling
-  decentralized agents to internalize their price impact via gradient ascent. We apply MADH
-  to peer-to-peer electricity trading, benchmarking it against a centralized welfare-maximizing
-  planner. Using synthetic data for heterogeneous prosumer communities, we demonstrate that
-  decentralized agents autonomously learn sophisticated arbitrage strategies, such as capacity
-  withholding. Crucially, we find that this strategic behavior generates positive externalities:
-  while active traders reduce their own costs through price-awareness, their arbitrage smooths
-  market prices, reducing costs for passive consumers. Furthermore, quantitative regret analysis
-  confirms that MADH policies converge with low regret < 1.5%. These results establish MADH
-  as a scalable tool for designing stable and efficient autonomous trading platforms.},
+  abstract = {The transition towards decentralised energy systems creates a need for local electricity
+  platforms on which prosumers trade energy at endogenously determined prices. We develop a
+  differentiable multi-agent control framework for such platforms, drawing on neural stochastic control
+  and the pathwise optimisation principle used in Deep Hedging, whose appeal stems from its simplicity,
+  computational efficiency, industrial use, and scalability to large-scale optimisation problems. The
+  proposed approach embeds physical storage dynamics, feasible prosumer actions, and the market-clearing
+  rule in a single computational graph, allowing decentralised agents to train trading policies by
+  backpropagating through aggregate supply, aggregate demand, and cleared prices. A stop-gradient
+  construction at the clearing layer separates two economically distinct learning modes: price-aware
+  learning, in which agents internalise their marginal price impact, and price-taking learning, in which
+  prices are treated as exogenous. This yields a market-mechanism-aware alternative to reward-only
+  multi-agent reinforcement learning methods such as Multi-Agent Proximal Policy Optimisation, which
+  treat the market as a black-box environment component. We evaluate the framework on peer-to-peer
+  electricity markets with heterogeneous prosumers, photovoltaic generation, battery storage, and
+  multiple non-discriminatory pricing rules, using both large-scale synthetic simulations and Swiss
+  smart-meter demand data. The experiments show that Multi-Agent Neural Network Control learns effective
+  decentralised policies, reduces community cost relative to rule-based control, and outperforms
+  Multi-Agent Proximal Policy Optimisation in the studied settings in both cost and training efficiency.
+  The learned policies exhibit emergent, economically sensible behaviour: they recover standard storage
+  arbitrage and, under price-aware learning, reveal capacity withholding under quantity-sensitive
+  clearing, which benefits flexible agents at the expense of aggregate community cost. Embedding market
+  clearing in the training graph therefore provides both an efficient learning signal and a diagnostic
+  tool for strategic behaviour in local electricity-market design.},
   doi      = {10.1016/j.egyai.2026.100809},
   html     = {https://doi.org/10.1016/j.egyai.2026.100809},
   volume   = {25},
   pages    = {100809},
-  pdf={multi_agent_deep_hedging.pdf},
+  pdf={multi_agent_neural_network_control.pdf},
   bibtex_show={true},
   selected={true}
 }
@@ -126,7 +152,7 @@
 
 @Article{picht-etal-selective-confusion-2025,
   abbr={WC},
-  author   = {Peter Georg Picht and Luka Nenadic and Octavia Barnes and Yannick Kuster and Nicolas Eschenbaum},
+  author   = {Peter Georg Picht and Luka Nenadic and Octavia Barnes and Nicolas Eschenbaum and Yannick Kuster},
   journal  = {World Competition},
   title    = {Selective Confusion: An Empirical Analysis of the DMA's Brussels Effect},
   year     = {2026},
@@ -154,17 +180,17 @@
 @Unpublished{buehler-eschenbaum-lenhard-2025,
   abbr={arXiv},
   author   = {Stefan Buehler and Nicolas Eschenbaum and Severin Lenhard},
-  title    = {Dynamic Monopoly Pricing With Multiple Varieties: Trading Up},
-  month    = dec,
-  year     = {2025},
-  abstract = {This paper develops an analytical framework that captures a broad class of monopoly pricing
-  problems, aiming to explain why Coasian dynamics emerge in some settings while Coasian failures arise in
-  others. We introduce the notion of trading-up opportunities and show that they are the driving force
-  behind Coasian dynamics. In particular, pricing dynamics do not emerge in the absence of trading-up
-  opportunities—a Coasian failure. Instead, with trading-up opportunities, pricing dynamics arise until
-  these opportunities are exhausted or the game ends. We show how our analysis generalizes to transitional
-  games where one variety is only indirectly accessible.},
-  pdf={Multiproduct_Dynamic_Pricing.pdf},
+  title    = {A Unified Framework for Dynamic Monopoly Pricing: Trading-Up},
+  month    = aug,
+  year     = {2026},
+  abstract = {This paper develops a unified analytical framework for dynamic monopoly pricing that allows
+  for multiple durable, rental, or mixed varieties. We show that trading-up opportunities are the driving
+  force behind Coasian-type price dynamics: prices adjust over time to reallocate buyer types to
+  higher-valued consumption options. Price adjustments persist until these opportunities are exhausted or
+  the game ends. When trading-up opportunities are absent, equilibrium prices are static, resulting in
+  Coasian failure. We illustrate the mechanism with examples and extend the analysis to transitional games
+  in which one variety is only indirectly accessible.},
+  pdf={trading_up.pdf},
   arxiv={2108.07146},
   bibtex_show={true},
   selected={true}
@@ -172,25 +198,25 @@
 
 @Unpublished{dynamic-pricing-experiment-2025,
   abbr={WP},
-  author   = {Stefan Buehler and Thomas Epper and Nicolas Eschenbaum and Roberta Koch},
+  author   = {Stefan Buehler and Thomas F. Epper and Nicolas Eschenbaum and Roberta Koch},
   title    = {Dynamic Pricing in Bilateral Relationships: Experimental Evidence},
-  abstract = {This paper presents experimental evidence on dynamic pricing in a large number of finite-horizon
-  bilateral relationships, building on Hart and Tirole (1988). We examine four distinct treatments that vary
-  the mode of trade and the seller’s commitment ability. We find that theory accurately predicts average
-  prices across relationships but falls short of capturing the diversity of individual price trajectories. We
-  also find that commitment has less bite than theory predicts, with sellers leaving significant rents to
-  buyers and frequently committing to changing or oscillating prices. Our analysis suggests that theory
-  explains behavior under renting better than under selling.},
-  month    = dec,
+  abstract = {This paper presents experimental evidence on dynamic pricing in finite-horizon bilateral
+  relationships, building on Hart and Tirole (1988). We examine four distinct treatments that vary in terms
+  of the mode of trade and the seller's commitment ability. Our findings demonstrate that theory accurately
+  predicts average prices but fails to account for the diversity of individual price trajectories. Contrary
+  to theoretical predictions, commitment has little influence on dynamic pricing, with sellers leaving
+  significant rents to buyers and frequently committing to changing or oscillating prices. In the absence of
+  commitment, strategic behavior is prevalent among sellers but not necessarily among buyers.},
+  month    = sep,
   year     = {2025},
-  pdf={Dynamic_Pricing_Experiment.pdf},
+  pdf={dynamic_pricing_experimental_evidence.pdf},
   bibtex_show={true},
   selected={false}
 }
 
 @Unpublished{eschenbaum-greber-daos-2025,
   abbr={arXiv},
-  author   = {Nicolas Eschenbaum and Nicolas Greber},
+  author   = {Nicolas Eschenbaum and Nicolas J. Greber},
   title    = {Repeated Auctions with Speculators: Arbitrage Incentives and Forks in DAOs},
   abstract = {We analyze the vulnerability of decentralized autonomous organizations (DAOs) to speculative
   exploitation via their redemption mechanisms. Studying a game-theoretic model of repeated auctions for
@@ -226,6 +252,7 @@
   abbr={arXiv},
   author   = {Nicolas Eschenbaum and Filip Mellgren and Philipp Zahn},
   title    = {Robust Algorithmic Collusion},
+  month    = jan,
   year     = {2022},
   note     = {Presented at the NeurIPS PERLS workshop},
   abstract = {This paper develops a formal framework to assess policies of learning algorithms in economic games. We investigate whether reinforcement-learning agents with collusive pricing policies can successfully extrapolate collusive behavior from training to the market. We find that in testing environments collusion consistently breaks down. Instead, we observe static Nash play. We then show that restricting algorithms' strategy space can make algorithmic collusion robust, because it limits overfitting to rival strategies. Our findings suggest that policy-makers should focus on firm behavior aimed at coordinating algorithm design in order to make collusive policies robust.},
@@ -239,7 +266,7 @@
   abbr={arXiv},
   author   = {Nicolas Eschenbaum and Helge Liebert},
   title    = {Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions},
-  month    = may,
+  month    = jul,
   year     = {2021},
   keywords = {Reputation, institutions, uncertainty, dark web, drugs},
   abstract = {This paper studies reputation in the online market for illegal drugs in which no legal
@@ -265,7 +292,7 @@
   pages    = {153 - 164},
   volume   = {171},
   abstract = {This paper provides an explanation for escalating prices and fines based on a unified analytical framework that nests monopoly pricing and optimal law enforcement. We show that escalation emerges as an optimal outcome if the principal (i) lacks commitment ability, and (ii) gives less than full weight to agent benefits. Escalation is driven by decreasing transfers for non-active agents rather than increasing transfers for active agents. Some forward-looking agents then strategically delay their activity, which drives a wedge between the optimal static transfer and the benefit of an indifferent agent. This wedge is the source of escalation.},
-  doi      = {https://doi.org/10.1016/j.jebo.2020.01.008},
+  doi      = {10.1016/j.jebo.2020.01.008},
   keywords = {Escalation, Behavior-based pricing, Repeat offenders, Deterrence},
   url      = {http://www.sciencedirect.com/science/article/pii/S0167268120300093},
   html={http://www.sciencedirect.com/science/article/pii/S0167268120300093},
@@ -289,6 +316,7 @@
   document evidence that the impact weakens with increasing distance and that
   smaller retailers compete in a more narrow market of only two kilometers in size.},
   pdf={geographic-market-definition.pdf},
+  bibtex_show={true},
   selected={false}
 }
 
