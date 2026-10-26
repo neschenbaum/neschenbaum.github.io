@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: "Market Power and Switching Costs in the Foundation Models Market: Evidence from a Developer Survey"
-description: Exploratory evidence from a survey of 19 organizations with production AI deployments — provider choices, switching costs, and lock-in.
+title: "Market Power and Switching Costs in the Foundation Models Market: Evidence from an Enterprise Survey"
+description: Exploratory evidence from a survey of 19 organizations with production AI deployments, fielded in autumn 2025 — provider choices, switching costs, and lock-in.
 date: 2026-01-30
 permalink: /applied-work/foundation-models-switching-costs/
 nav: false
@@ -24,6 +24,7 @@ toc:
   - name: 8. Discussion
   - name: 9. Limitations and Future Research
   - name: 10. Conclusion
+  - name: Cite as
   - name: References
 ---
 
@@ -31,7 +32,15 @@ _Research note based on work carried out under the European AI &amp; Society Fun
 
 ## Summary
 
-The foundation models market has grown very rapidly, and competition authorities have begun to ask whether customers face lock-in despite widespread API standardization. This note reports evidence from a survey of 19 organizations with production AI deployments, covering provider choices, switching costs, and contractual arrangements. Two providers, Anthropic and OpenAI, are used far more than any other in the sample. Switching costs scale with system complexity: simple use cases can be moved in hours to days, while complex pipelines take weeks or are reported as not feasible. Regulated industries, particularly healthcare, report the highest barriers, driven by compliance requirements rather than technical factors. Routing layers reduce cost differences across providers but not quality differences, and few customers say they would absorb a large price increase without optimizing, routing, or switching traffic. 
+The foundation models market has grown very rapidly, and competition authorities have begun to ask whether customers face lock-in despite widespread API standardization. This note reports evidence from a survey of 19 organizations with production AI deployments, covering provider choices, switching costs, and contractual arrangements. Two providers, Anthropic and OpenAI, are used far more than any other in the sample. Switching costs scale with system complexity: simple use cases can be moved in hours to days, while complex pipelines take weeks or are reported as not feasible. Regulated industries, particularly healthcare, report the highest barriers, driven by compliance requirements rather than technical factors. Routing layers reduce cost differences across providers but not quality differences, and few customers say they would absorb a large price increase without optimizing, routing, or switching traffic. The survey was fielded in September–November 2025, before general-purpose agent apps such as the Claude app became widespread and while coding agents such as Claude Code and Codex were only beginning to enter everyday use; the findings are a snapshot of that period.
+
+**Key findings**
+
+- **Concentration.** Anthropic and OpenAI are used far more than any other provider, and 58% of organizations (11/19) rely on a single provider; multi-homing rises with organization size.
+- **Switching costs scale with complexity.** Simple use cases take a median of 3–8 hours to move; complex pipelines take a median of 2–7 days, and 4 of 17 organizations call switching them not feasible.
+- **The costs sit in the application layer.** Prompt templates and governance sign-off are each named by 9 of 19 respondents, and moving a complex pipeline usually means rebuilding the evaluation harness (79%).
+- **Compliance makes verticals sticky.** Both healthcare respondents report switching as infeasible, citing clinical re-validation and governance sign-off rather than technical factors.
+- **Demand is not captive.** 18 of 19 organizations report falling unit costs and 15 of 19 rising quality, and only 16% would simply accept a 25% price increase.
 
 ## 1. Introduction
 
@@ -50,7 +59,7 @@ The analysis draws on the switching costs literature (Klemperer, 1987; Farrell &
 
 ## 2. Data and Method
 
-We developed a 46-question structured survey administered online between September and November 2025. It captured organization characteristics, provider and framework adoption, system complexity, switching costs, commercial arrangements, and cost and quality trends over the preceding 6–12 months. Respondents were recruited through professional networks in European AI development communities, with emphasis on production deployments rather than pilots.
+We developed a 46-question structured survey administered online between September and November 2025. It captured organization characteristics, provider and framework adoption, system complexity, switching costs, commercial arrangements, and cost and quality trends over the preceding 6–12 months. Respondents were recruited through professional networks in European AI development communities, with emphasis on production deployments rather than pilots. Respondents were verified individually, and quotes are lightly edited for length and typos.
 
 The sample consists of 19 organizations, spread across firm sizes from 1–49 to 10,000+ employees. Respondents were product leaders (53%), CTOs or CIOs (32%), engineering leads (11%), and one founder/CEO (5%). The sample emphasizes EU and GDPR-regulated organizations, reflecting the fellowship's focus.
 
@@ -60,6 +69,7 @@ Given the sample size, we use descriptive statistics and cross-tabulation rather
 - **Selection bias.** Organizations willing to discuss dependencies may differ from those that are not; recruitment through professional networks may in particular oversample sophisticated users.
 - **Self-reported data.** Switching-cost estimates are hypothetical rather than revealed preferences, and ex ante estimates typically underestimate ex post costs.
 - **Geographic skew.** The EU and GDPR focus may overstate compliance barriers relative to the global market.
+- **Timing.** Responses were collected in September–November 2025, before general-purpose agent apps such as the Claude app became widespread and while coding agents such as Claude Code and Codex were only beginning to enter everyday use. Provider shares and switching costs may look different today.
 
 ## 3. Market Structure and Provider Adoption
 
@@ -122,13 +132,13 @@ Re-validation compounds the cost: moving a complex pipeline typically means rebu
 
 Compliance requirements produce the sharpest barriers in the sample.
 
-**Healthcare (n=2).** Neither healthcare respondent reports feasible switching; both use Anthropic exclusively and both cite HIPAA Business Associate Agreement (BAA) requirements, clinical validation timelines, and governance sign-off as barriers.
+**Healthcare (n=2).** Neither healthcare respondent reports feasible switching. Both are European organizations with US operations, which is why US HIPAA rules apply; both use Anthropic exclusively and cite HIPAA Business Associate Agreement (BAA) requirements, clinical validation timelines, and governance sign-off as barriers.
 
 > _"HIPAA compliance and BAA requirements make switching providers nearly impossible — clinical validation alone would take months."_
 
 > _"Healthcare compliance and clinical validation create insurmountable barriers — Claude's safety features and HIPAA compliance make it the only viable choice."_
 
-Both healthcare respondents hold a HIPAA BAA, in each case with Anthropic. Where a compliance certification is a necessary input and only a few providers offer it, it functions as a barrier to entry that concentrates the market independently of technical merit. Whether limited BAA availability reflects genuine compliance costs or avoidable regulatory complexity is an open question that this sample cannot resolve.
+Both healthcare respondents hold a HIPAA BAA, in each case with Anthropic. BAAs are widely available, however: OpenAI, Azure OpenAI, Google Vertex AI, and Amazon Bedrock offer them too. The barrier is therefore less the certification itself than what a change of provider sets off, namely a new agreement, clinical re-validation, and governance sign-off. With two respondents this is indicative only, but it suggests that compliance processes can make a vertical sticky independently of technical merit.
 
 **Legal and finance.** One legal respondent uses Google Gemini exclusively because of its long context window, and estimates that switching would require rewriting 51–100% of prompts and chunking strategies that reduce quality. Feature-level differentiation can create quasi-lock-in for use cases where a specific capability is critical, even when switching is technically possible.
 
@@ -177,8 +187,10 @@ In the terms of the switching-costs literature, the market looks contestable for
 Three observations follow that are relevant for competition analysis, and that a larger study could test:
 
 - **Use case heterogeneity.** Market structure differs enough across use cases that a single horizontal market definition may obscure concentration and lock-in specific to particular verticals such as healthcare.
-- **Compliance as a barrier.** Certification requirements such as HIPAA BAAs can concentrate a vertical independently of technical merit, and deserve attention as potential barriers to entry.
+- **Compliance as a switching cost.** In regulated verticals such as healthcare, re-validation and governance sign-off make every change of provider costly, which can make a vertical sticky independently of technical merit.
 - **Routers as a partial constraint.** Routing layers reduce cost differences but not quality differences, so they ease but do not eliminate lock-in; open-source self-hosting is a genuine constraint for cost-sensitive and data-residency-constrained buyers but not for quality-demanding use cases.
+
+These findings complement competition authorities' work on foundation models, which has concentrated on the supply side: control of compute, data, and talent, and partnerships between model developers and cloud providers. The CMA counts flexibility, the ability to switch between and combine providers, among its principles for the sector (CMA, 2023); the Autorité de la concurrence warns that cloud credits can lock customers in (Autorité de la concurrence, 2024); and the European Commission's policy brief on generative AI raises similar concerns (European Commission, 2024). The survey adds customer-level evidence. Switching costs sit mainly in the application layer, in prompts, evaluation harnesses, and governance sign-off, rather than in contracts or data transfer, which is the layer the Data Act's switching rules address. The bundling responses tied to cloud commitments are direct evidence of the channel the Autorité describes. And compliance processes are themselves a switching cost, because every change of model triggers re-validation, which matters for how obligations under the AI Act are designed and applied.
 
 ## 9. Limitations and Future Research
 
@@ -188,15 +200,31 @@ The sample is small (n=19), self-selected, and skewed toward EU and GDPR-regulat
 
 This survey provides evidence from a small survey on switching costs and market structure in the foundation models market, from organizations with production deployments. Anthropic and OpenAI dominate the sample. We find that switching costs rise significantly with system/application complexity and compliance requirements create the hardest barriers, particularly observed in healthcare. Routing layers and open-source alternatives constrain provider power along the cost dimension but not fully along the quality dimension. Taken together, the picture is of early-stage platform competition in which rapidly improving quality and falling costs coexist with emerging sources of lock-in. It is also a moving target: the switching costs measured here are predominantly those of custom-built pipelines, and generic agents such as Claude Code and Codex have since begun to replace some of that bespoke scaffolding. A follow-up should ask whether that dissolves the lock-in documented here or merely relocates it — from a team's own pipeline to the agent and the provider behind it.
 
+_Disclosure: Through Swiss Economics I advise competition authorities and private parties, including firms active in digital markets. Research funding is listed on my [CV](/cv/)._
+
+## Cite as
+
+Eschenbaum, N. (2026). Market power and switching costs in the foundation models market: Evidence from an enterprise survey. Research note, European AI &amp; Society Fund Global Fellowship. https://neschenbaum.github.io/applied-work/foundation-models-switching-costs/
+
 ## References
 
 Armstrong, M. (2006). Competition in two-sided markets. _RAND Journal of Economics_, 37(3), 668–691.
+
+Autorité de la concurrence (2024). _Opinion 24-A-05 of 28 June 2024 on the competitive functioning of the generative artificial intelligence sector._
+
+CMA (2023). _AI Foundation Models: Initial Report._ Competition and Markets Authority.
+
+European Commission (2024). _Competition in Generative AI and Virtual Worlds._ Competition Policy Brief No. 3/2024.
 
 Farrell, J., &amp; Shapiro, C. (1988). Dynamic competition with switching costs. _RAND Journal of Economics_, 19(1), 123–137.
 
 Klemperer, P. (1987). Markets with consumer switching costs. _Quarterly Journal of Economics_, 102(2), 375–394.
 
 Menlo Ventures (2025). _2025: The State of Generative AI in the Enterprise._
+
+Regulation (EU) 2023/2854 on harmonised rules on fair access to and use of data (Data Act).
+
+Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (AI Act).
 
 Rey, P., &amp; Tirole, J. (2007). A primer on foreclosure. _Handbook of Industrial Organization_, 3, 2145–2220.
 
