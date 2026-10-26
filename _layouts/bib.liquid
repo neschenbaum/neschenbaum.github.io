@@ -78,8 +78,12 @@
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
+          {%- if forloop.length == 2 and forloop.last and author_array_limit == author_array_size -%}
+            &nbsp;and&nbsp;
+          {%- else -%}
+            {% if forloop.first == false %},&nbsp;{% endif %}
+            {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
+          {%- endif -%}
         {% endif %}
         {%- if author_is_self -%}
           <em>
@@ -157,6 +161,8 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% assign entrymonth = '' %}
+    {% assign entryyear = '' %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
@@ -197,6 +203,9 @@
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% endif %}
+      {% if entry.ssrn %}
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{ entry.ssrn }}" class="btn btn-sm z-depth-0" role="button">SSRN</a>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>

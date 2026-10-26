@@ -6,18 +6,19 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Nicolas
 middle_name:
 last_name: Eschenbaum
-email: nicolas.eschenbaum[at]gmail.com
-description: # the website description (for meta tags); leave blank to omit
+email: nicolas.eschenbaum@gmail.com
+description: Economist and competition expert, partner at Swiss Economics. Research and expert work on algorithmic pricing and collusion, digital markets, and AI. # the website description (for meta tags)
 footer_text: # displayed in the footer; leave blank to omit
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://neschenbaum.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+future: true # build future-dated news items (upcoming talks)
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -37,7 +38,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -59,9 +60,9 @@ max_width: 800px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://neschenbaum.github.io/assets/img/og-image.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -74,7 +75,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: neschenbaum # your GitHub user name
+github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
@@ -86,7 +87,7 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: nicolas-eschenbaum-30627458/ # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-0814-5143 # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
@@ -164,12 +165,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -196,8 +191,8 @@ collections:
 
 announcements:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+  limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -239,6 +234,28 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  # al-folio demo content, kept in the repo for reference but not built
+  - _posts/
+  - _projects/
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _pages/repositories.md
+  - _pages/dropdown.md
+  - assets/html/
+  - assets/jupyter/
+  - assets/plotly/
+  - assets/audio/
+  - assets/video/
+  # LaTeX CV sources and local build output (the served CV is assets/pdf/curriculum-vitae.pdf)
+  - "*.tex"
+  - "*.aux"
+  - "*.log"
+  - "*.out"
+  - "cv-*.pdf"
+  - requirements.txt
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -362,13 +379,14 @@ filtered_bibtex_keywords:
     preview,
     selected,
     slides,
+    ssrn,
     supp,
     video,
     website,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

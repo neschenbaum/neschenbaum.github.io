@@ -3,7 +3,6 @@ layout: page
 permalink: /publications/
 title: Research
 description: Journal articles, conference papers, and working papers, most recent first.
-years: [2026, 2025, 2024, 2022, 2021, 2020, 2018]
 nav: true
 nav_order: 2
 ---
@@ -13,16 +12,12 @@ nav_order: 2
 <p class="pub-desc">
   My research sits at the intersection of AI, industrial organization, and competition policy —
   digital markets, market design, energy platforms, and AI regulation, studied with game theory,
-  empirical methods, and machine learning.
+  empirical methods, and machine learning. Code for the computational papers is available on request.
 </p>
 
 <div class="publications">
 
-{% for y in page.years %}
-
-  <h2 class="year">{{ y }}</h2>
-  {% bibliography -f publications -q @*[year={{ y }}]* %}
-{% endfor %}
+{% bibliography -f publications %}
 
 </div>
 

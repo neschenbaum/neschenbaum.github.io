@@ -1,8 +1,6 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Nicolas Eschenbaum
     - name: Based in
       value: Zürich, Switzerland
     - name: Languages
@@ -13,11 +11,12 @@
 - title: Positions
   type: time_table
   contents:
-    - title: AI Lead and Managing Economist
+    - title: AI Lead and Managing Economist (Partner)
       institution: Swiss Economics
       year: 2022 - present
       description:
         - Leading work on AI, digital markets, and competition policy, combining industrial organization and computational methods in applied and research projects.
+        - Member of the executive board.
     - title: Member, ASCOLA Working Group AI/Algorithms
       institution: Academic Society for Competition Law (ASCOLA)
       year: 2025 - present
@@ -31,6 +30,8 @@
     - title: Affiliated Researcher
       institution: Zurich Center for Market Design, University of Zurich
       year: 2024 - present
+      description:
+        - Research on AI and agent-based models, with applications to energy markets.
     - title: Global Fellow
       institution: European AI & Society Fund
       year: 2024 - 2025
@@ -44,6 +45,8 @@
     - title: Postdoctoral Researcher
       institution: University of St. Gallen
       year: 2018 - 2022
+      description:
+        - Research on algorithmic pricing and competition in digital markets, funded by the SNSF grant “Pricing in a Digital World.”
 
 - title: Research Visits
   type: time_table
@@ -51,6 +54,8 @@
     - title: Visiting Scholar
       institution: Düsseldorf Institute for Competition Economics (DICE)
       year: 2020 - 2021
+      description:
+        - Invited by Prof. Justus Haucap.
 
 - title: Education
   type: time_table
@@ -59,7 +64,7 @@
       institution: University of St. Gallen
       year: 2013 - 2018
       description:
-        - Summa cum laude &mdash; dissertation <em>Essays in Industrial Organization</em> (supervisor: Prof. Stefan Bühler).
+        - "Summa cum laude &mdash; dissertation <em>Essays in Industrial Organization</em> (supervisor: Prof. Stefan Bühler)."
     - title: M.Sc. in Economics
       institution: University of Edinburgh
       year: 2011 - 2012
@@ -107,6 +112,31 @@
       year: 2018 - 2022
       description:
         - CHF 500,000 (co-investigator), SNSF grant no. 178836.
+
+- title: Recent Talks and Presentations
+  type: time_table
+  contents:
+    - title: EURO Working Group on Revenue Management & Pricing workshop
+      institution: Barcelona
+      year: 2026
+    - title: "Panellist, “The Next Wave of Tech Enforcement: Global Trends in Regulating Platforms and Algorithms”"
+      institution: AIJA 13th Antitrust Annual Conference, Düsseldorf
+      year: 2026
+    - title: “Market Power and Platform Design in Decentralized Electricity Trading”
+      institution: EARIE Annual Conference, Mannheim
+      year: 2026
+    - title: “Algorithmic Pricing in Practice and Collusion”
+      institution: ASCOLA Annual Conference, London
+      year: 2026
+    - title: Invited talk on the DMA’s impact for Switzerland
+      institution: State Secretariat for Economic Affairs (SECO), Bern
+      year: 2026
+    - title: “Economic perspectives on market power in AI markets”
+      institution: ASCOLA Working Group on AI/Algorithms workshop
+      year: 2026
+    - title: Invited guest lecture, course “Digitale Ökonomie” (Prof. R. Kesler)
+      institution: Düsseldorf Institute for Competition Economics (DICE)
+      year: 2026
 
 - title: Publications & Applied Work
   type: list
