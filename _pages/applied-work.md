@@ -65,7 +65,7 @@ nav_order: 3
   </div>
   <div class="aw-item">
     <div class="aw-year">2023 – 2024</div>
-    <div class="aw-desc">Price-elasticity estimation in German wholesale and end-user energy markets — <em>Wirtschaftspolitik</em> Nr.&nbsp;47, State Secretariat for Economic Affairs (SECO).</div>
+    <div class="aw-desc">Price-elasticity estimation in German wholesale and end-user energy markets — <a href="https://www.seco.admin.ch/seco/de/home/Publikationen_Dienstleistungen/Publikationen_und_Formulare/Strukturwandel_Wachstum/Branchenanalysen/wp_47.html"><em>Wirtschaftspolitik</em> Nr.&nbsp;47</a>, State Secretariat for Economic Affairs (SECO).</div>
   </div>
 </div>
 

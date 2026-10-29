@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Research
-description: Journal articles, conference papers, and working papers, most recent first.
+description: Journal articles and working papers, most recent first.
 nav: true
 nav_order: 2
 ---
