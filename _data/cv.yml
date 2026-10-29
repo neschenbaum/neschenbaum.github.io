@@ -11,12 +11,17 @@
 - title: Positions
   type: time_table
   contents:
-    - title: AI Lead and Managing Economist (Partner)
+    - title: Managing Economist and AI Lead
       institution: Swiss Economics
-      year: 2022 - present
+      year: 2026 - present
       description:
+        - Junior partner (shareholder) and member of the executive board.
         - Leading work on AI, digital markets, and competition policy, combining industrial organization and computational methods in applied and research projects.
-        - Member of the executive board.
+    - title: Senior Economist
+      institution: Swiss Economics
+      year: 2022 - 2025
+      description:
+        - Economic analysis in competition, digital-markets, and energy projects.
     - title: Member, ASCOLA Working Group AI/Algorithms
       institution: Academic Society for Competition Law (ASCOLA)
       year: 2025 - present
@@ -68,8 +73,6 @@
     - title: M.Sc. in Economics
       institution: University of Edinburgh
       year: 2011 - 2012
-      description:
-        - Graduated with honours.
     - title: B.Sc. in Business and Economics
       institution: Maastricht University
       year: 2008 - 2011
@@ -111,7 +114,7 @@
       institution: Swiss National Science Foundation
       year: 2018 - 2022
       description:
-        - CHF 500,000 (co-investigator), SNSF grant no. 178836.
+        - CHF 500,000, SNSF grant no. 178836. Co-wrote the proposal; postdoctoral researcher on the project.
 
 - title: Recent Talks and Presentations
   type: time_table

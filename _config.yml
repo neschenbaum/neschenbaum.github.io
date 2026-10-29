@@ -7,7 +7,7 @@ first_name: Nicolas
 middle_name:
 last_name: Eschenbaum
 email: nicolas.eschenbaum@gmail.com
-description: Economist and competition expert, partner at Swiss Economics. Research and expert work on algorithmic pricing and collusion, digital markets, and AI. # the website description (for meta tags)
+description: Economist and competition expert; Managing Economist and partner at Swiss Economics. Research and expert work on algorithmic pricing and collusion, digital markets, and AI. # the website description (for meta tags)
 footer_text: # displayed in the footer; leave blank to omit
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -249,6 +249,13 @@ exclude:
   - assets/plotly/
   - assets/audio/
   - assets/video/
+  - assets/json/
+  - assets/pdf/example_pdf.pdf
+  - assets/img/publication_preview/
+  - assets/img/prof_pic.jpg
+  - assets/img/prof_pic_color.png
+  - assets/img/template_error.png
+  - "assets/img/[0-9]*.jpg"
   # LaTeX CV sources and local build output (the served CV is assets/pdf/curriculum-vitae.pdf)
   - "*.tex"
   - "*.aux"

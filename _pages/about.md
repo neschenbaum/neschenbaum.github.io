@@ -7,6 +7,7 @@ subtitle: AI, industrial organization &amp; competition policy.
 profile:
   align: right
   image: my_pic.jpg
+  image_alt: Nicolas Eschenbaum
   image_circular: false # crops the image to make it circular
   more_info:
 
@@ -15,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm an economist and competition expert, and a partner at [Swiss Economics](https://www.swiss-economics.ch/), where I lead the AI practice. I prepare expert reports in competition cases, advise authorities including the European Commission, and research algorithmic pricing, digital markets, and AI as an affiliated researcher at the [Zurich Center for Market Design](https://www.marketdesign.uzh.ch/en.html) (UZH).
+I'm an economist and competition expert, and a Managing Economist and partner at [Swiss Economics](https://www.swiss-economics.ch/), where I lead the AI practice. I prepare expert reports in competition cases, advise authorities including the European Commission, and research algorithmic pricing, digital markets, and AI as an affiliated researcher at the [Zurich Center for Market Design](https://www.marketdesign.uzh.ch/en.html) (UZH).
 
 ## What I research
 

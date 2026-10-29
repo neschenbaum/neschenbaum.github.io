@@ -1,0 +1,204 @@
+- title: Research note
+  items:
+    - year: 2026
+      title: "Market Power and Switching Costs in the Foundation Models Market: Evidence from an Enterprise Survey"
+      venue: Research note, European AI & Society Fund Global Fellowship
+      summary: >-
+        Evidence from a survey of 19 organizations with production AI deployments on which providers they use, how hard it
+        would be to switch, and what keeps them locked in.
+      links:
+        - label: Read
+          url: /applied-work/foundation-models-switching-costs/
+
+- title: Articles and blog posts
+  items:
+    - year: 2026
+      title: Warum Fusionen die Preise erhöhen können – auch ohne Marktbeherrschung
+      title_en: Why mergers can raise prices, even without dominance
+      venue: Swiss Economics blog, August 2026
+      authors: with Samuel Rutz, Matthias Hafner, Michael Funk, and Seline Spillmann
+      summary: >-
+        The second part of a series on Switzerland's new SIEC test explains, using oligopoly theory, how a merger can raise
+        prices without creating a dominant firm. It introduces concentration measures, diversion ratios, and upward pricing
+        pressure as tools for assessing these effects, which still have to be weighed against efficiencies.
+      links:
+        - label: German
+          url: https://www.swiss-economics.ch/blog/warum-fusionen-die-preise-erh%C3%B6hen-k%C3%B6nnen-auch-ohne-marktbeherrschung
+    - year: 2026
+      title: Der SIEC-Test kommt in die Schweiz – Was ändert sich?
+      title_en: "The SIEC test comes to Switzerland: what changes?"
+      venue: Swiss Economics blog, April 2026
+      authors: with Samuel Rutz, Matthias Hafner, Michael Funk, and Seline Spillmann
+      summary: >-
+        Switzerland's revised Cartel Act replaces the dominance test in merger control with the EU's SIEC test. The post
+        argues that this modernizes the method rather than tightening the law: it closes gap cases, considers efficiencies
+        explicitly, and shifts the focus to a merger's effects on prices, quality, and innovation.
+      links:
+        - label: German
+          url: https://www.swiss-economics.ch/blog/der-siec-test-kommt-in-die-schweiz-was-%C3%A4ndert-sich
+        - label: French
+          url: https://www.swiss-economics.ch/blog-fr/le-test-siec-arrive-en-suisse-qu-est-ce-qui-change
+    - year: 2025
+      title: The Untapped Potential of Game Theory in Revenue Management
+      venue: Institute for Categorical Cybernetics blog, May 2025
+      summary: >-
+        Revenue-management systems forecast demand and optimize prices but largely ignore how competitors will respond. The
+        post argues that game theory, and compositional game theory in particular, can model these strategic interactions,
+        and describes a pilot of competitor-aware dynamic pricing.
+      links:
+        - label: Read
+          url: https://cybercat.institute/2025/05/16/game-theory-rm/
+    - year: 2024
+      title: Preissignale im Strommarkt stärken
+      title_en: Strengthening price signals in the electricity market
+      venue: Die Volkswirtschaft, February 2024
+      authors: with Urs Trinkner
+      summary: >-
+        Most Swiss households and small firms pay fixed annual tariffs, so wholesale price swings never reach them. Drawing
+        on a study for SECO, the article shows that end customers do respond to prices, with elasticities of about −0.2 for
+        households and −0.4 for firms, and proposes tariffs that pass on more of the price signal while keeping certainty.
+      links:
+        - label: German
+          url: https://dievolkswirtschaft.ch/de/2024/02/preissignale-im-strommarkt-staerken/
+        - label: French
+          url: https://dievolkswirtschaft.ch/fr/2024/02/renforcer-les-signaux-de-prix-sur-le-marche-de-lelectricite/
+    - year: 2023
+      title: Generative KI und Marktwettbewerb
+      title_en: Generative AI and market competition
+      venue: Swiss Economics blog, July 2023
+      summary: >-
+        Training foundation models takes data, computing power, and expertise that few firms have, and those firms are
+        vertically integrated across the AI value chain. The post argues that access to data may become an essential facility
+        that competition law and regulation, including in Switzerland, will need to address.
+      links:
+        - label: German
+          url: https://www.swiss-economics.ch/blog/generative-ki-und-marktwettbewerb
+    - year: 2023
+      title: Bedrohen Chatbots den Wettbewerb?
+      title_en: Do chatbots threaten competition?
+      venue: Die Volkswirtschaft, July 2023
+      authors: with Michael Funk and Samuel Rutz
+      summary: >-
+        Building competitive foundation models takes data and computing power that few firms control, and plug-in ecosystems
+        add network effects that can entrench them. The article contrasts the EU's response (DMA, DSA, Data Act, AI Act) with
+        Switzerland's lack of comparable rules and recommends that Swiss policy address access to data.
+      links:
+        - label: German
+          url: https://dievolkswirtschaft.ch/de/2023/07/bedrohen-chatbots-den-wettbewerb/
+        - label: French
+          url: https://dievolkswirtschaft.ch/fr/2023/07/les-agents-conversationnels-menacent-ils-la-concurrence/
+    - year: 2023
+      title: A Competition Economics Perspective on the AI Act
+      venue: Swiss Economics blog, June 2023
+      summary: >-
+        Reads the draft EU AI Act through a competition lens: its links to the DMA's gatekeeper concept and the separate
+        obligations for foundation models, which do not fit the Act's risk-based scheme. The post notes that the EU is pursuing
+        competition goals through regulation and asks how far it will go in intervening in markets.
+      links:
+        - label: English
+          url: https://www.swiss-economics.ch/blog-en/a-competition-economics-perspective-on-the-ai-act
+        - label: German
+          url: https://www.swiss-economics.ch/blog/wettbewerbs%C3%B6konomik-im-ai-act
+    - year: 2022
+      title: AI and Its Effects on Competition
+      venue: Swiss Economics blog, July 2022
+      authors: with Nicolas Greber and Michael Funk
+      summary: >-
+        Sorts the competition risks of AI into three settings: interaction between competitors (algorithmic collusion and
+        herding), third-party arrangements such as hub-and-spoke, and vertically integrated intermediaries that favour their
+        own offers. The post recommends that firms cover how their algorithms behave in the market within their responsible-AI
+        frameworks.
+      links:
+        - label: English
+          url: https://www.swiss-economics.ch/blog-en/ai-and-its-effects-on-competition
+        - label: German
+          url: https://www.swiss-economics.ch/blog/die-auswirkungen-von-k%C3%BCnstlicher-intelligenz-auf-den-wettbewerb
+    - year: 2020
+      title: Künstliche Intelligenz überlistet Wettbewerbsrecht
+      title_en: Artificial intelligence outsmarts competition law
+      venue: Die Volkswirtschaft, December 2020
+      summary: >-
+        Self-learning pricing algorithms can learn to avoid price wars and sustain high prices without communicating, a form
+        of tacit collusion that competition law, which hinges on agreement or intent, may not catch. The article argues for
+        closing this gap, for example by treating reward-punishment pricing strategies as collusion or by letting authorities
+        test pricing algorithms before they are deployed.
+      links:
+        - label: German
+          url: https://dievolkswirtschaft.ch/de/2020/12/kuenstliche-intelligenz-ueberlistet-wettbewerbsrecht/
+        - label: French
+          url: https://dievolkswirtschaft.ch/fr/2020/12/lintelligence-artificielle-se-joue-t-elle-du-droit-de-la-concurrence/
+
+- title: Reports
+  items:
+    - year: 2024
+      title: Wirkung von Preissignalen und Regulierungen auf die Stromnachfrage
+      title_en: Effect of price signals and regulations on electricity demand
+      venue: Study for the State Secretariat for Economic Affairs (SECO), Grundlagen für die Wirtschaftspolitik Nr. 47
+      authors: with Urs Trinkner, Lilia Habibulina, Maida Sabotic, Romain de Luze, and Leah Meyer de Stadelhofen
+      summary: >-
+        Wholesale electricity demand barely responds to prices, but a 10% rise in end-customer prices cuts household demand by
+        1–3% and business demand by 2–7%. A survey of business customers finds that most passed higher electricity costs on to
+        their own customers while working to cut consumption and invest in their own generation.
+      links:
+        - label: SECO
+          url: https://www.seco.admin.ch/seco/de/home/Publikationen_Dienstleistungen/Publikationen_und_Formulare/Strukturwandel_Wachstum/Branchenanalysen/wp_47.html
+        - label: PDF
+          url: /assets/pdf/2024_Bericht_SE_Preissignale_Strommarkt.pdf
+    - year: 2023
+      title: Heimfall Wasserkonzessionen
+      title_en: Reversion of hydropower concessions
+      venue: Background study for the Office of Waste, Water, Energy and Air (AWEL), Canton of Zurich
+      authors: with Urs Trinkner, Claudio Burkhard, and Leah Meyer de Stadelhofen
+      summary: >-
+        When hydropower concessions expire, the plants revert to the cantons and municipalities that granted them. The report
+        reviews how the mountain cantons have approached these reversions, as background for the Canton of Zurich.
+      links:
+        - label: PDF
+          url: https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/energie/energieplanung/heimfall_wasserkonzession_schlussbericht.pdf
+    - year: 2023
+      title: Erlösmöglichkeiten und Vermarktungskosten Wasserkraft
+      title_en: Revenue opportunities and marketing costs of hydropower
+      venue: Study for the Swiss Federal Office of Energy (SFOE)
+      authors: with Nicolas Greber, Alexander Fuchs, and Urs Trinkner
+      summary: >-
+        Quantifies the revenue potential of different types of hydropower plants and the costs of marketing their output, as
+        input to the SFOE's work on a sliding market premium for hydropower.
+      links:
+        - label: SFOE
+          url: https://www.bfe.admin.ch/bfe/de/home/foerderung/erneuerbare-energien/gleitende-marktpraemie-wasserkraft.html
+        - label: PDF
+          url: https://www.swiss-economics.ch/files/content/dokumente/publikationen/2023_TrinknerEschenbaumGreberFuchs_Bericht%20SE-FEN%20Erloesmoeglichkeiten%20und%20Vermarktungskosten%20Wasserkraft_BFE.pdf
+    - year: 2023
+      title: Einführung eines rechtlichen Schutzes für journalistische Inhalte im Internet
+      title_en: Introducing legal protection for journalistic content on the internet
+      venue: Regulatory impact assessment for the Swiss Federal Institute of Intellectual Property (IPI)
+      authors: with Samuel Rutz, Matteo Mattmann, Michael Funk, and Beatrix Marosvölgyi
+      summary: >-
+        Assesses the expected economic effects of introducing legal protection for journalistic content online, under which
+        large online services would remunerate media companies for using their content.
+      links:
+        - label: PDF
+          url: https://www.swiss-economics.ch/files/content/dokumente/publikationen/2023_RutzMattmannFunkEschenbaumMarosv%C3%B6lgyi_RFA_Schutz_journalistischer_Inhalte_Schlussbericht.pdf
+    - year: 2023
+      title: Necessity and Key Elements of a Swiss Data and Digital Policy
+      venue: Swiss Economics foundational paper
+      authors: with Lukas Bruhin, Matthias Finger, and Urs Trinkner
+      summary: >-
+        Develops a terminology and framework for analysing data and digital policy challenges, with recommendations for
+        Switzerland.
+      links:
+        - label: Swiss Economics
+          url: https://www.swiss-economics.ch/publications#necessity-and-key-elements-of-a-swiss-data-and-digital-policy
+    - year: 2022
+      title: Massnahmen gegen hohe Gas- und Strompreise
+      title_en: Measures against high gas and electricity prices
+      venue: Study for the Swiss Federal Office of Energy (SFOE)
+      authors: with Urs Trinkner, Romain de Luze, Luca Apreda, and Nicolas Greber
+      summary: >-
+        Reviews the measures European countries introduced against the 2022 energy-price spike and assesses which of them would
+        suit Switzerland, as input to the Federal Council's decisions in December 2022.
+      links:
+        - label: PDF
+          url: https://www.swiss-economics.ch/files/content/dokumente/publikationen/2022_TrinknerEschenbaumDeLuzeApredaGreber_Massnahmen%20hohe%20Gas%20und%20Strompreise.pdf
+        - label: Federal Council
+          url: https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-92331.html
