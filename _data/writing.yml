@@ -12,6 +12,32 @@
 
 - title: Articles and blog posts
   items:
+    - year: 2026
+      title: Warum Fusionen die Preise erhöhen können – auch ohne Marktbeherrschung
+      title_en: Why mergers can raise prices, even without dominance
+      venue: Swiss Economics blog, August 2026
+      authors: with Samuel Rutz, Matthias Hafner, Michael Funk, and Seline Spillmann
+      summary: >-
+        The second part of a series on Switzerland's new SIEC test explains, using oligopoly theory, how a merger can raise
+        prices without creating a dominant firm. It introduces concentration measures, diversion ratios, and upward pricing
+        pressure as tools for assessing these effects, which still have to be weighed against efficiencies.
+      links:
+        - label: German
+          url: https://www.swiss-economics.ch/blog/warum-fusionen-die-preise-erh%C3%B6hen-k%C3%B6nnen-auch-ohne-marktbeherrschung
+    - year: 2026
+      title: Der SIEC-Test kommt in die Schweiz – Was ändert sich?
+      title_en: "The SIEC test comes to Switzerland: what changes?"
+      venue: Swiss Economics blog, April 2026
+      authors: with Samuel Rutz, Matthias Hafner, Michael Funk, and Seline Spillmann
+      summary: >-
+        Switzerland's revised Cartel Act replaces the dominance test in merger control with the EU's SIEC test. The post
+        argues that this modernizes the method rather than tightening the law: it closes gap cases, considers efficiencies
+        explicitly, and shifts the focus to a merger's effects on prices, quality, and innovation.
+      links:
+        - label: German
+          url: https://www.swiss-economics.ch/blog/der-siec-test-kommt-in-die-schweiz-was-%C3%A4ndert-sich
+        - label: French
+          url: https://www.swiss-economics.ch/blog-fr/le-test-siec-arrive-en-suisse-qu-est-ce-qui-change
     - year: 2025
       title: The Untapped Potential of Game Theory in Revenue Management
       venue: Institute for Categorical Cybernetics blog, May 2025
@@ -37,6 +63,17 @@
         - label: French
           url: https://dievolkswirtschaft.ch/fr/2024/02/renforcer-les-signaux-de-prix-sur-le-marche-de-lelectricite/
     - year: 2023
+      title: Generative KI und Marktwettbewerb
+      title_en: Generative AI and market competition
+      venue: Swiss Economics blog, July 2023
+      summary: >-
+        Training foundation models takes data, computing power, and expertise that few firms have, and those firms are
+        vertically integrated across the AI value chain. The post argues that access to data may become an essential facility
+        that competition law and regulation, including in Switzerland, will need to address.
+      links:
+        - label: German
+          url: https://www.swiss-economics.ch/blog/generative-ki-und-marktwettbewerb
+    - year: 2023
       title: Bedrohen Chatbots den Wettbewerb?
       title_en: Do chatbots threaten competition?
       venue: Die Volkswirtschaft, July 2023
@@ -50,6 +87,32 @@
           url: https://dievolkswirtschaft.ch/de/2023/07/bedrohen-chatbots-den-wettbewerb/
         - label: French
           url: https://dievolkswirtschaft.ch/fr/2023/07/les-agents-conversationnels-menacent-ils-la-concurrence/
+    - year: 2023
+      title: A Competition Economics Perspective on the AI Act
+      venue: Swiss Economics blog, June 2023
+      summary: >-
+        Reads the draft EU AI Act through a competition lens: its links to the DMA's gatekeeper concept and the separate
+        obligations for foundation models, which do not fit the Act's risk-based scheme. The post notes that the EU is pursuing
+        competition goals through regulation and asks how far it will go in intervening in markets.
+      links:
+        - label: English
+          url: https://www.swiss-economics.ch/blog-en/a-competition-economics-perspective-on-the-ai-act
+        - label: German
+          url: https://www.swiss-economics.ch/blog/wettbewerbs%C3%B6konomik-im-ai-act
+    - year: 2022
+      title: AI and Its Effects on Competition
+      venue: Swiss Economics blog, July 2022
+      authors: with Nicolas Greber and Michael Funk
+      summary: >-
+        Sorts the competition risks of AI into three settings: interaction between competitors (algorithmic collusion and
+        herding), third-party arrangements such as hub-and-spoke, and vertically integrated intermediaries that favour their
+        own offers. The post recommends that firms cover how their algorithms behave in the market within their responsible-AI
+        frameworks.
+      links:
+        - label: English
+          url: https://www.swiss-economics.ch/blog-en/ai-and-its-effects-on-competition
+        - label: German
+          url: https://www.swiss-economics.ch/blog/die-auswirkungen-von-k%C3%BCnstlicher-intelligenz-auf-den-wettbewerb
     - year: 2020
       title: Künstliche Intelligenz überlistet Wettbewerbsrecht
       title_en: Artificial intelligence outsmarts competition law
