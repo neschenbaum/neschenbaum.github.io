@@ -202,3 +202,26 @@
           url: https://www.swiss-economics.ch/files/content/dokumente/publikationen/2022_TrinknerEschenbaumDeLuzeApredaGreber_Massnahmen%20hohe%20Gas%20und%20Strompreise.pdf
         - label: Federal Council
           url: https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-92331.html
+
+- title: In the media
+  items:
+    - year: 2025
+      title: Europas Angst vor der Künstlichen Intelligenz
+      title_en: Europe's fear of artificial intelligence
+      venue: Frankfurter Allgemeine Zeitung, August 2025
+      summary: >-
+        Interview on the EU AI Act and Europe's approach to regulating artificial intelligence.
+      links:
+        - label: German
+          url: https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/europas-angst-vor-der-kuenstlichen-intelligenz-110618482.html
+    - year: 2025
+      title: "KI: Wie realistisch sind personalisierte Flugpreise bei Delta?"
+      title_en: "AI: How realistic are personalized airfares at Delta?"
+      venue: 20 Minuten, July 2025
+      summary: >-
+        Interview on Delta's plan to set fares individually with AI. Airlines have priced with algorithms for decades, but fares
+        tailored to each customer's willingness to pay are still a distant prospect; if rivals rely on the same pricing tool
+        from one provider, it could facilitate collusion, a growing challenge for competition law.
+      links:
+        - label: German
+          url: https://www.20min.ch/story/nach-delta-ankuendigung-individuelle-flugpreise-mit-ki-so-realistisch-ist-das-103385972
