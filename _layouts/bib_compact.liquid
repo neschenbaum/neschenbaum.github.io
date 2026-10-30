@@ -1,0 +1,47 @@
+---
+---
+{%- capture entry_url -%}
+  {%- if entry.pdf -%}
+    {%- if entry.pdf contains '://' -%}
+      {{- entry.pdf -}}
+    {%- else -%}
+      {{- entry.pdf | prepend: '/assets/pdf/' | relative_url -}}
+    {%- endif -%}
+  {%- elsif entry.html -%}
+    {%- if entry.html contains '://' -%}
+      {{- entry.html -}}
+    {%- else -%}
+      {{- entry.html | prepend: '/assets/html/' | relative_url -}}
+    {%- endif -%}
+  {%- elsif entry.arxiv -%}
+    https://arxiv.org/abs/{{- entry.arxiv -}}
+  {%- elsif entry.ssrn -%}
+    https://papers.ssrn.com/sol3/papers.cfm?abstract_id={{- entry.ssrn -}}
+  {%- endif -%}
+{%- endcapture -%}
+{%- assign coauthors = '' | split: '' -%}
+{%- for author in entry.author_array -%}
+  {%- unless site.scholar.last_name contains author.last -%}
+    {%- assign coauthors = coauthors | push: author.last -%}
+  {%- endunless -%}
+{%- endfor -%}
+<div class="entry">
+  <div class="entry-date">{{ entry.year }}</div>
+  <div id="{{ entry.key }}" class="entry-body">
+    <div class="entry-title">
+      {% if entry_url != '' %}
+        <a href="{{ entry_url }}">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
+    <div class="entry-meta">
+      {% if entry.type == 'article' -%}
+        <em>{{ entry.journal }}</em>
+      {%- else -%}
+        Working paper
+      {%- endif %}
+      {%- if coauthors.size > 0 %} · with {{ coauthors | array_to_sentence_string }}{% endif %}
+    </div>
+  </div>
+</div>

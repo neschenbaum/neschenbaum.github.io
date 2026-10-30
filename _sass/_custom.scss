@@ -1,0 +1,333 @@
+/*******************************************************************************
+ * Site design: fonts, links, and the dated list used by the homepage,
+ * Research, Applied Work, Writing, and the CV.
+ ******************************************************************************/
+
+:root {
+  --font-sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --entry-date-width: 7rem;
+}
+
+// Typography
+
+body {
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+}
+
+.post-title {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.5rem;
+}
+
+.post-header .desc {
+  font-size: 1.15rem;
+  color: var(--global-text-color-light);
+}
+
+.post-description {
+  font-size: 1rem;
+  color: var(--global-text-color-light);
+}
+
+.navbar-brand.title {
+  font-family: var(--font-serif);
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .post-title {
+    font-size: 1.9rem;
+  }
+}
+
+// Section labels: every h2 inside a page body
+
+.post article h2,
+.post article .publications h2.bibliography {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--global-text-color-light);
+  border-top: 0;
+  padding-top: 0;
+  margin: 2.25rem 0 0.6rem;
+}
+
+// Links in running text are underlined; list titles and link rows only on hover
+
+article a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+
+  &:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+article .entry-title a,
+article .entry-links a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+article .social a,
+article .profile a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Dated list
+
+.entry {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.entries > .entry:last-child,
+ol.bibliography > li:last-child > .entry {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.compact .entry {
+  padding: 0.6rem 0;
+}
+
+.entry-date,
+.entry-label {
+  flex: 0 0 var(--entry-date-width);
+  padding-top: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+.entry-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.entry-title {
+  font-weight: 600;
+}
+
+.entry-subtitle {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+}
+
+.entry-meta {
+  margin-top: 0.1rem;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+
+  em,
+  span,
+  div {
+    color: inherit;
+  }
+}
+
+.entry-text {
+  margin-top: 0.3rem;
+}
+
+.entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+
+  a,
+  a:not([href]) {
+    cursor: pointer;
+    color: var(--global-theme-color);
+  }
+
+  a:not([href]):hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+
+  a + a::before {
+    content: "·";
+    display: inline-block;
+    margin: 0 0.5rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+.entries-more {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 576px) {
+  .entry {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .entry-date,
+  .entry-label {
+    flex-basis: auto;
+  }
+}
+
+// Publications
+
+.publications {
+  margin-top: 0;
+
+  ol.bibliography li {
+    margin-bottom: 0;
+
+    .author > em {
+      color: var(--global-text-color);
+      font-style: normal;
+      border-bottom: 0;
+    }
+
+    div.abstract.hidden,
+    div.abstract.hidden.open {
+      border: 0;
+      border-left: 2px solid var(--global-divider-color);
+      font-size: 0.95rem;
+      text-align: left;
+
+      p {
+        margin: 0.6rem 0 0.2rem 0.9rem;
+        line-height: 1.55;
+      }
+    }
+
+    .bibtex.hidden.open {
+      margin-top: 0.6rem;
+    }
+  }
+}
+
+// Homepage
+
+.social .contact-icons {
+  font-size: 1.75rem;
+
+  a {
+    margin: 0 0.4rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile {
+    width: 40%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+// CV
+
+.cv-pdf {
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+  }
+}
+
+// Footer
+
+footer.sticky-bottom {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 0.85rem;
+
+  .container {
+    color: var(--global-text-color-light);
+  }
+}
+
+// Research note (distill)
+
+.post.distill {
+  d-title,
+  d-byline,
+  d-article,
+  d-appendix {
+    font-family: var(--font-sans);
+  }
+
+  d-title h1 {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+  }
+
+  d-title p {
+    font-size: 1.1rem;
+    color: var(--global-text-color-light) !important;
+  }
+
+  d-article h2 {
+    font-family: var(--font-serif);
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  d-article h3 {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  d-byline h3,
+  d-contents nav h3 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  d-contents nav h3 {
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+  }
+}
