@@ -32,13 +32,13 @@ _Research note based on work carried out under the European AI &amp; Society Fun
 
 ## Summary
 
-The foundation models market has grown very rapidly, and competition authorities have begun to ask whether customers face lock-in despite widespread API standardization. This note reports evidence from a survey of 19 organizations with production AI deployments, covering provider choices, switching costs, and contractual arrangements. Two providers, Anthropic and OpenAI, are used far more than any other in the sample. Switching costs scale with system complexity: simple use cases can be moved in hours to days, while complex pipelines take weeks or are reported as not feasible. Regulated industries, particularly healthcare, report the highest barriers, driven by compliance requirements rather than technical factors. Routing layers reduce cost differences across providers but not quality differences, and few customers say they would absorb a large price increase without optimizing, routing, or switching traffic. The survey was fielded in September–November 2025, before general-purpose agent apps such as the Claude app became widespread and while coding agents such as Claude Code and Codex were only beginning to enter everyday use; the findings are a snapshot of that period.
+The foundation models market has grown very rapidly, and competition authorities have begun to ask whether customers face lock-in despite widespread API standardization. This note reports evidence from a survey of 19 organizations with production AI deployments, covering provider choices, switching costs, and contractual arrangements. Two providers, Anthropic and OpenAI, are used far more than any other in the sample. Switching costs scale with system complexity: simple use cases can be moved in hours to days, while complex pipelines take weeks or are reported as not feasible. Regulated industries, particularly healthcare, report the highest barriers, driven by compliance requirements rather than technical factors. Routing layers reduce cost differences across providers but not quality differences, and few customers say they would absorb a large price increase without optimizing, routing, or switching traffic. The survey was fielded in September–November 2025, before agent features in general-purpose apps such as Claude became widespread, and while coding agents such as Claude Code and Codex were only beginning to enter everyday use; the findings are a snapshot of that period.
 
 **Key findings**
 
 - **Concentration.** Anthropic and OpenAI are used far more than any other provider, and 58% of organizations (11/19) rely on a single provider; multi-homing rises with organization size.
 - **Switching costs scale with complexity.** Simple use cases take a median of 3–8 hours to move; complex pipelines take a median of 2–7 days, and 4 of 17 organizations call switching them not feasible.
-- **The costs sit in the application layer.** Prompt templates and governance sign-off are each named by 9 of 19 respondents, and moving a complex pipeline usually means rebuilding the evaluation harness (79%).
+- **The costs sit in the application layer.** Prompt templates and governance sign-off are each named by 9 of 19 respondents, and 15 of the 17 organizations with complex pipelines would need to rebuild the evaluation harness to move one.
 - **Compliance makes verticals sticky.** Both healthcare respondents report switching as infeasible, citing clinical re-validation and governance sign-off rather than technical factors.
 - **Demand is not captive.** 18 of 19 organizations report falling unit costs and 15 of 19 rising quality, and only 16% would simply accept a 25% price increase.
 
@@ -69,7 +69,7 @@ Given the sample size, we use descriptive statistics and cross-tabulation rather
 - **Selection bias.** Organizations willing to discuss dependencies may differ from those that are not; recruitment through professional networks may in particular oversample sophisticated users.
 - **Self-reported data.** Switching-cost estimates are hypothetical rather than revealed preferences, and ex ante estimates typically underestimate ex post costs.
 - **Geographic skew.** The EU and GDPR focus may overstate compliance barriers relative to the global market.
-- **Timing.** Responses were collected in September–November 2025, before general-purpose agent apps such as the Claude app became widespread and while coding agents such as Claude Code and Codex were only beginning to enter everyday use. Provider shares and switching costs may look different today.
+- **Timing.** Responses were collected in September–November 2025, before agent features in general-purpose apps such as Claude became widespread, and while coding agents such as Claude Code and Codex were only beginning to enter everyday use. Provider shares and switching costs may look different today.
 
 ## 3. Market Structure and Provider Adoption
 
@@ -126,7 +126,7 @@ Asked where switching hurts most, respondents point to the same two layers — p
   <div class="note-fig-cap">Where switching hurts most (share of respondents; up to three selections each).</div>
 </div>
 
-Re-validation compounds the cost: moving a complex pipeline typically means rebuilding the evaluation harness (79%) and re-checking guardrails (47%), retrieval parameters (32%), and tool schemas (26%). The barriers that arise for _simple_ use cases, by contrast, are contractual or compliance-related — contract terms and safety/policy gates (each cited by seven respondents) — rather than technical.
+Re-validation compounds the cost: among the 17 organizations with complex pipelines, moving one typically means rebuilding the evaluation harness (88%, 15/17) and re-checking guardrails (53%), retrieval parameters (35%), and tool schemas (29%). The barriers that arise for _simple_ use cases, by contrast, are contractual or compliance-related — contract terms and safety/policy gates (each cited by seven respondents) — rather than technical.
 
 ## 6. Compliance and Regulated Verticals
 

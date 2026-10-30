@@ -73,6 +73,8 @@
     - title: M.Sc. in Economics
       institution: University of Edinburgh
       year: 2011 - 2012
+      description:
+        - With distinction.
     - title: B.Sc. in Business and Economics
       institution: Maastricht University
       year: 2008 - 2011
@@ -98,8 +100,6 @@
     - title: Young Scholar Award
       institution: CRESSE
       year: 2022
-      description:
-        - CHF 1,500.
     - title: Computational Learning in Economic Games
       institution: Hasler Foundation
       year: 2021 - 2022
@@ -140,6 +140,18 @@
     - title: Invited guest lecture, course “Digitale Ökonomie” (Prof. R. Kesler)
       institution: Düsseldorf Institute for Competition Economics (DICE)
       year: 2026
+    - title: “Simulating local energy platforms using multi-agent deep hedging”
+      institution: SAEE 2025, ETH Zurich
+      year: 2025
+    - title: “Optimale Strategien für dezentrale Prosumenten auf lokalen Energiehandelsplattformen”
+      institution: BKW AG
+      year: 2025
+    - title: “Multi-Agent Deep Hedging zur Simulation dezentraler Prosumenten”
+      institution: Axpo AG
+      year: 2025
+    - title: “Effizienzverteidigung in der Praxis”
+      institution: Studienvereinigung Kartellrecht
+      year: 2025
 
 - title: Publications & Applied Work
   type: list

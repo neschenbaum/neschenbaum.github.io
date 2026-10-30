@@ -2,7 +2,7 @@
 layout: page
 permalink: /writing/
 title: Writing
-description: Policy articles, blog posts, and reports published elsewhere, with short summaries and links to the originals.
+description: Policy articles, blog posts, reports, and interviews published elsewhere, with short summaries and links to the originals.
 nav: true
 nav_order: 4
 ---

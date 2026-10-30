@@ -12,7 +12,7 @@ nav_order: 2
 <p class="pub-desc">
   My research sits at the intersection of AI, industrial organization, and competition policy —
   digital markets, market design, energy platforms, and AI regulation, studied with game theory,
-  empirical methods, and machine learning. Code for the computational papers is available on request.
+  empirical methods, and machine learning.
 </p>
 
 <div class="publications">
